@@ -43,33 +43,11 @@ public class SinapiAutomatic
             // Criação do JFrame
             JFrame frame = new JFrame("console");
             frame.setSize(500, 400);
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            
-            
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                       
             
             // TODO botão para baixar SINAPI e SICRO
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+  
             // Criação do JTextArea para exibir o console
             JTextArea textArea = new JTextArea();
             textArea.setEditable(false);
@@ -133,7 +111,6 @@ public class SinapiAutomatic
             	String mesAno = dataAtual.replaceAll("/", "");
             	// corte exato do mês e ano. Formato: "AAAAMM"
             	String anoMes = mesAno.substring(0, 6);
-            	
             	
                 // modelo de links para navegação e download
             	//String desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_202410_Desonerado.zip";
@@ -455,9 +432,6 @@ if(validador == 0)
 //              		 		 {
 //              		 			 System.out.println("OCORREU UM ERRO: " + e);
 //              		 		 }
-
-              		 	  
-              		 	 
               	 
 //---------------------------------------------------------------------------------------------------------
 	}
@@ -486,14 +460,12 @@ if(validador == 0)
                 }
                 return FileVisitResult.CONTINUE;
             }
-
             @Override
             public FileVisitResult visitFileFailed(Path file, IOException e) throws IOException 
             {
                 System.err.println("Falha ao visitar o arquivo: " + file + " - " + e.getMessage());
                 return FileVisitResult.CONTINUE;
-            }
-            
+            } 
         });      
         
     }
