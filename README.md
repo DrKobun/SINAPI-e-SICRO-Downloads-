@@ -1,4 +1,4 @@
-Programa para download automático dos arquivos mais recentes de todos os estados do mês atual:
+Programa para download automático dos arquivos mais recentes de todos os estados do mês atual do SINAPI e SICRO:
 *(Revisar mensalmente para SINAPI e Bimestralmente para SICRO)*
 
 <b>Passo a passo para correr o programa corretamente:</b>
