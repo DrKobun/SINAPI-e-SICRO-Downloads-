@@ -30,7 +30,7 @@ import java.io.PrintStream;
 // TODO SEPARAR ARQUIVOS .xlsx EM PASTAS DE CADA ESTADO
 
 // ESTE PROGRAMA POSSUI CONSOLE EM JANELA SEPARADA!
-public class SinapiAutomaticUser 
+public class SinapiAutomatic 
 {
 	// nome do Path do usuário
 	static String currentUser = System.getProperty("user.name");
