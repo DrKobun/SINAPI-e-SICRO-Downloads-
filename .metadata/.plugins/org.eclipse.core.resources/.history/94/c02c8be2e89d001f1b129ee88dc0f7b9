@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.zip.*;
+
+public class ExtracaoMk {
+    public static void main(String[] args) {
+        String zipFile = "caminho/para/seu/arquivo.zip"; // Caminho para o arquivo ZIP
+        String destDir = "caminho/para/diretorio/de/extracao"; // Diretório de destino para extração
+        
+        try (ZipInputStream zis = new ZipInputStream(new FileInputStream(zipFile))) {
+            ZipEntry entry;
+            
+            while ((entry = zis.getNextEntry()) != null) {
+                System.out.println("Extraindo: " + entry.getName());
+                
+                // Cria um arquivo de destino para o arquivo dentro do ZIP
+                File newFile = new File(destDir, entry.getName());
+                
+                // Cria diretórios, se necessário
+                new File(newFile.getParent()).mkdirs();
+                
+                try (BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(newFile))) {
+                    byte[] buffer = new byte[1024];
+                    int len;
+                    while ((len = zis.read(buffer)) > 0) {
+                        bos.write(buffer, 0, len);
+                    }
+                }
+                zis.closeEntry();
+            }
+            System.out.println("Descompactação concluída com sucesso!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

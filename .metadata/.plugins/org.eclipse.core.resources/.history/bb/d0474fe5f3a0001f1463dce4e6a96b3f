@@ -1,0 +1,11 @@
+import java.io.IOException;
+
+public class PathUser 
+{
+	public static void main(String[] args) throws IOException 
+	{
+		
+		String currentUser = System.getProperty("user");
+		System.out.println("Working Directory = " + currentUser);
+	}
+}
