@@ -106,12 +106,28 @@ public class SinapiAutomatic
             	LocalDateTime now = LocalDateTime.now();
             	
             	// conversão de DateTime para String
-            	String dataAtual = dtf.format(now);
-            	// remoção das barras para espaços em branco
-            	String mesAno = dataAtual.replaceAll("/", "");
-            	// corte exato do mês e ano. Formato: "AAAAMM"
-            	String anoMes = mesAno.substring(0, 6);
-            	
+    	    	String dataAtual = dtf.format(now);
+    	    	// remoção das barras para espaços em branco
+    	    	String mesAno = dataAtual.replaceAll("/", "");
+    	    	// corte exato do mês e ano. Formato: "AAAAMM"
+    	    	String ano = mesAno.substring(0, 4);
+    	    	String mes = mesAno.substring(4, 6);
+    	    	
+    	    	int mesInteiro = Integer.parseInt(mes);
+    	    	
+    	    	
+    	    	if(mesInteiro != 1)
+    	    	{
+    	    		mesInteiro -= 1;
+    	    	} 
+    	    	else
+    	    	{
+    	    		mesInteiro = 12;
+    	    	}
+    	    	//ano = String.valueOf(ano);
+    	    	String mesConvertido = String.valueOf(mesInteiro);
+    	    	String anoMes = ano + mesConvertido;
+    	    	
                 // modelo de links para navegação e download
             	//String desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_202410_Desonerado.zip";
             	//String naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_202410_NaoDesonerado.zip";
