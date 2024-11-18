@@ -1,0 +1,77 @@
+/*
+ * 	@author DrKobun github.com/DrKobun
+ */
+package codes;
+
+import javax.swing.*;
+import java.io.*;
+import java.awt.*;
+
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintStream;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.file.FileVisitResult;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.StandardCopyOption;
+import java.nio.file.StandardOpenOption;
+import java.nio.file.attribute.BasicFileAttributes;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+//import java.util.ArrayList;
+//import java.util.List;
+import org.apache.log4j.BasicConfigurator;
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.Colors;
+//import org.openqa.selenium.interactions.Actions;
+
+// TORNAR EM ARQUIVO EXECUTÁVEL opções: Maven...?
+// ESTE ARQUIVO POSSUI CONSOLE EM JANELA SEPARADA!
+public class SinapiAutomaticJanela 
+{
+	private static final int BUFFER_SIZE = 4096;
+	static int limitador = 0;
+	public static void main(String[] args) 
+	{
+		
+		SwingUtilities.invokeLater(() -> {
+            // Criação do JFrame
+            JFrame frame = new JFrame("console");
+            frame.setSize(500, 400);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+            // Criação do JTextArea para exibir o console
+            JTextArea textArea = new JTextArea();
+            textArea.setEditable(false);
+            JScrollPane scrollPane = new JScrollPane(textArea);
+            frame.add(scrollPane, BorderLayout.CENTER);
+            
+            //configuraçõoes para localização e tamanho da janela (janela do console)
+            frame.setLocation(960, 0); // aqui é Localização (onde a janela vai ficar) o primeiro argumento é a largura
+            frame.setSize(960, 1080);  // aqui é tamanho (qual o espaço que a janela vai ocupar)
+            
+            // Redirecionar o System.out e System.err para o JTextArea
+            PrintStream printStream = new PrintStream(new TextAreaOutputStream(textArea));
+            System.setOut(printStream);
+            System.setErr(printStream);
+
+            frame.setVisible(true);
+        });
+    	
+		BasicConfigurator.configure();
+	}		
+}

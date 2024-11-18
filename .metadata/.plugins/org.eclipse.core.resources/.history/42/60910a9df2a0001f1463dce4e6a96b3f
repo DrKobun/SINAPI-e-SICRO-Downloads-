@@ -1,0 +1,8 @@
+
+public class PathUser 
+{
+	public static void main(String[] args) 
+	{
+		toAbsolutePath(). toString(); System. getProperty("user. dir");
+	}
+}
