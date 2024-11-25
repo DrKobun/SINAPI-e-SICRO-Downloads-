@@ -13,6 +13,7 @@ import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.StandardCopyOption;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.FutureTask;
@@ -20,12 +21,12 @@ import java.util.concurrent.FutureTask;
 import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.FluentWait;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.io.PrintStream;
 
 // TODO SEPARAR ARQUIVOS .xlsx EM PASTAS DE CADA ESTADO
 
@@ -35,10 +36,13 @@ public class SinapiAutomatic
 	// nome do Path do usuário
 	static String currentUser = System.getProperty("user.name");
 	
+	
 	public static void main(String[] args) 
 	{
-		int validador = 0;
-		
+		 int validador = 0;
+		 
+         
+         
 		SwingUtilities.invokeLater(() -> {
             // Criação do JFrame
             JFrame frame = new JFrame("console");
@@ -140,16 +144,81 @@ public class SinapiAutomatic
                 String urlAtual = driver.getCurrentUrl();
                 
                 
+                
+                
+                int tamanhoAntes;
+                int tamanhoDepois;
+                
+                String caminho = "C:\\Users\\" + currentUser + "\\Downloads";
+                File downloads = new File(caminho); // arquivos do caminho
+                
+                File[] arquivos = downloads.listFiles(); // lista de arquivos do caminho
+                
+            	
+            	
+              
+                
                 System.out.println("URL atual: " + urlAtual);
-                // resgara a URL atual para verificar se a página existe ou não
+                // click no link desonerado
                 driver.get(desoneradoLink);
                 System.out.println("Link da URL atual *DESONERADO*: " + desoneradoLink);                
-                Thread.sleep(5000);
+                //Thread.sleep(5000);               
                 
+                // teste de solução ##########################################################################################
+                String pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
+                String nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_Desonerado.zip";
+                
+                File downloaded = new File(pathDownload, nomeArquivo);
+                
+                FluentWait<File> wait = new FluentWait<File>(downloaded)
+                		.withTimeout(Duration.ofMinutes(5))
+                		.pollingEvery(Duration.ofSeconds(5))
+                		.ignoring(Exception.class)
+                		.withMessage("erro no download");
+                
+                boolean isDownloaded = wait.until(f -> f.exists() && f.canRead());
+                
+                
+                if(isDownloaded)
+                {
+                	System.out.println("------------------------------\nArquivo *DESONERADO* 100% baixado com sucesso!\n------------------------------");
+                }
+                else
+                {
+                	System.out.println("Arquivo não baixado.");
+                }
+                // teste de solução ##########################################################################################
+                
+                
+                // click no link de não desonerados
                 driver.get(naoDesoneradoLink);
                 System.out.println("Link da URL atual *NÃO DESONERADO*: " + naoDesoneradoLink);
-                Thread.sleep(5000);
+                //Thread.sleep(5000);
                 
+                // teste de solução ##########################################################################################
+                pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
+                nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_NaoDesonerado.zip";
+                
+                downloaded = new File(pathDownload, nomeArquivo);
+                
+                wait = new FluentWait<File>(downloaded)
+                		.withTimeout(Duration.ofMinutes(5))
+                		.pollingEvery(Duration.ofSeconds(5))
+                		.ignoring(Exception.class)
+                		.withMessage("erro no download");
+                
+                isDownloaded = wait.until(f -> f.exists() && f.canRead());
+                
+                
+                if(isDownloaded)
+                {
+                	System.out.println("------------------------------\nArquivo *NÃO DESONERADO* 100% baixado com sucesso!\n------------------------------");
+                }
+                else
+                {
+                	System.out.println("Arquivo não baixado.");
+                }
+                // teste de solução ##########################################################################################
                 
                 urlAtual = driver.getCurrentUrl();
                 if(urlAtual.contains("PageNotFoundError"))
@@ -158,9 +227,10 @@ public class SinapiAutomatic
                 	break;
                 }
                 
-                //aviso de download
-                if(estado == "TO")
+                
+                if(estado == "AP")
                 {
+            		System.out.println("Iniciando espera final de conclusão de downloads... (espera de 10 segundos)");
                 	Thread.sleep(10000); // espera 10 segundos pra garantir que todos os downloads terminaram
                 }
                 System.out.println("Arquivos baixados para o estado: " + estado);
@@ -168,6 +238,7 @@ public class SinapiAutomatic
             }
             	if(validador == 0)
             	{
+            		
             		System.out.println("Todos os estados foram baixados!");
             	}
             	else
@@ -283,13 +354,10 @@ if(validador == 0)
                 
 //---------------------------------------------------------------------------------------------------------
     	        //Mover apenas arquivos selecionados APÓS a extração
-    	        String sourceDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste"; // Substitua pelo caminho da pasta de origem
-                //TODO procurar automaticamente qual é a pasta do usuário atual
-                String targetDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel"; // Substitua pelo caminho da pasta de destino
-                // Nome do arquivo para ser movido
-                String fileNameToFin = ".xlsx"; // busca por todos os arquivos Excel
-                
-                
+    	        String sourceDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste";
+                String targetDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
+                String fileNameToFin = ".xlsx";
+
                 // MOVER APENAS ARQUIVOS BAIXADOS
             	 try
             	 {
@@ -303,18 +371,18 @@ if(validador == 0)
             	 
 //---------------------------------------------------------------------------------------------------------
              // *SEPARAR E MOVER TODOS OS ARQUIVOS DE CADA ESTADO*
-             String[] estados = 
-	       	 {
-	       	     "AC", "AL", "AP", 
-	       	     "AM", "BA", "CE", 
-	       	     "DF", "ES", "GO", 
-	       	     "MA", "MT", "MS", 
-	       	     "MG", "PA", "PB", 
-	       	     "PR", "PE", "PI", 
-	       	     "RJ", "RN", "RS", 
-	       	     "RO", "RR", "SC", 
-	       	     "SP", "SE", "TO"
-	       	 };
+	             String[] estados = 
+		       	 {
+		       	     "AC", "AL", "AP", 
+		       	     "AM", "BA", "CE", 
+		       	     "DF", "ES", "GO", 
+		       	     "MA", "MT", "MS", 
+		       	     "MG", "PA", "PB", 
+		       	     "PR", "PE", "PI", 
+		       	     "RJ", "RN", "RS", 
+		       	     "RO", "RR", "SC", 
+		       	     "SP", "SE", "TO"
+		       	 };
             	 
 //	            String[] estados = 
 //	            {
