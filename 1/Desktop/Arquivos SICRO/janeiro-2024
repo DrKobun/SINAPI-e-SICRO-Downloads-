@@ -1,0 +1,6323 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+  <!-- Google Tag Manager -->
+  <script type="text">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NHZSKTD');</script>
+  <!-- End Google Tag Manager -->
+
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://www.gov.br/dnit",
+            "logo": "https://www.gov.br/dnit/logo.png"
+        }</script>
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.gov.br/dnit",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.gov.br/dnit/search?SearchableText={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+        }</script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+        <base href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        <meta property="og:title" content="Janeiro - 2024" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" />
+<meta property="og:image" content="https://www.gov.br/dnit/logo.png" />
+
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="Departamento Nacional de Infraestrutura de Transportes" />
+
+
+  
+
+  
+  
+  <script type="text">
+    (function() {
+        var po = document.createElement('script');
+        po.async = true;
+        po.src = document.location.protocol + '//connect.facebook.net/pt_BR/all.js#xfbml=1';
+        var head = document.getElementsByTagName('head')[0];
+        head.appendChild(po);
+    }());
+    </script>
+
+
+
+  
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@" />
+  
+
+
+
+
+
+<meta property="creator.productor" content="https://www.gov.br/transportes/pt-br" />
+
+
+
+  
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/reset-cachekey-d01d517b136d87764f67ca146a04129b.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/base-cachekey-94748ea57a9a4a6cab593008aa34b9c5.css" />
+    <style type="text/css" media="screen">@import url(https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.dateinput-cachekey-6efc655b68223d55a3f90df686c4c8fa.css);</style>
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-332856a354355350b14791c0ef21706d.css" />
+    <style type="text/css" media="screen">@import url(https://www.gov.br/dnit/portal_css/Sunburst%20Theme/jquery.autocomplete-cachekey-be7e2de3d4bfc186bfab353c1c2288ed.css);</style>
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/embedder-cachekey-ce6d54314d2d7caab51dc233b246b02e.css" media="screen" />
+    <style type="text/css" media="screen">@import url(https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourcecollective.pollscsscollective.polls-cachekey-aec693429c7082b4b81964c8cfe73172.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/IEFixes-cachekey-6785600b674cdc72eb033ec11a943a93.css" media="screen" />
+        <![endif]-->
+    
+    <style type="text/css" media="all">@import url(https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourcepas.plugins.loginunicologinunico-cachekey-3ab74e7408cf525f668642e56b8a24a8.css);</style>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourcelgpd.plugindsgov.min-cachekey-02910b9f1f6e6642432230190b907088.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/resourcegovbr.policycanais-cachekey-ee2a080451f990a3d1e964c3b3178798.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="https://www.gov.br/dnit/portal_css/Sunburst%20Theme/ploneCustom-cachekey-ea2bef85bfeaf21f2432991db0ff5133.css" media="all" />
+
+  
+  
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/++resource++govbr.recomendacao/govbr.recom.9e3eea160cd9e43452ac.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcegovbr.policybrowser-update-cachekey-917b189579578f4997cfbfdbff900003.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-19a51fbf4b4aed98a5e6d0cef9447f45.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcegovbr.policyfolder_contents-cachekey-74707ee826895ce675bab3202e53e568.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcegovbr.policycookiebar_1_3_55-cachekey-eed27dd0125d10aaa6a9deac596d8ff2.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcegovbr.policyapplication_cookiebar_1_3_55-cachekey-169794a36ae757a71c5dc4bbe7f15ac4.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/collective.js.jqueryui.custom.min-cachekey-4a4c2d902e037c690b7c8dcc05c59115.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourceplone.formwidget.recurrencejquery.tmpl-beta1-cachekey-9d34820d6c634be09b0007e8aa956ae5.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcecollective.js.bootstrapjsbootstrap.min-cachekey-e7fcc37c5d84bec8f9d240ecf3cd4e63.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcecollective.coverjsmain-cachekey-7e5ce3698117e2e5eb4946c4330c29dc.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcebrasil.gov.tilesvendorjquery.jplayer.min-cachekey-465800159ac4e32d053ff6407373e93b.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcedropdown-menu-cachekey-e8ad9da0aaff99ac22598fa321e95d5d.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcelgpd.pluginchangeCookieImage-cachekey-8830598791d07d1b8d3f7beeaafc8dce.js"></script>
+    <script type="text/javascript" src="https://www.gov.br/dnit/portal_javascripts/Sunburst%20Theme/resourcelgpd.pluginblock_cookies-cachekey-4f16a8df3a3e504f9dc6b44333af1a17.js"></script>
+
+
+
+  <link rel="stylesheet" href="https://www.gov.br/dnit/++resource++brasil.gov.agenda/brasilgovagenda-720c34e.css" />
+
+
+  <script defer="defer" src="https://www.gov.br/dnit/++resource++brasil.gov.agenda/brasilgovagenda-720c34e.js"></script>
+
+
+
+  <link rel="stylesheet" href="https://www.gov.br/dnit/++resource++brasil.gov.portal/brasilgovportal-ee510e4.css" />
+
+
+  <script defer="defer" src="https://www.gov.br/dnit/++resource++brasil.gov.portal/brasilgovportal-ee510e4.js"></script>
+
+
+
+<title>Janeiro - 2024 — Departamento Nacional de Infraestrutura de Transportes</title>
+<link rel="http://purl.org/dc/terms/subject http://schema.org/about http://xmlns.com/foaf/0.1/primaryTopic" href="http://vocab.e.gov.br/2011/03/vcge#esquema" />
+        
+    <link rel="author" href="https://www.gov.br/dnit/pt-br" title="Informações do Autor" />
+
+    <link rel="canonical" href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" />
+
+    
+    
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['pt-BR'],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+
+
+    <link rel="search" href="https://www.gov.br/dnit/pt-br/@@search" title="Buscar neste site" />
+
+
+
+        
+        
+        
+        
+        
+
+        
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/dnit/++theme++padrao_govbr/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/dnit/++theme++padrao_govbr/favicons/favicon-32x32.png" />
+    <link rel="shortcut icon" type="image/png" href="/dnit/++theme++padrao_govbr/favicons/favicon-48x48.png" />
+    <link rel="mask-icon" href="/dnit/++theme++padrao_govbr/favicons/safari-pinned-tab.svg" color="#00a300" />
+    <meta name="msapplication-config" content="favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#00a300" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous" />
+    <style>
+        body.userrole-authenticated .btn.btn-success.fileinput-button span:after {
+            content: "Adicionar Arquivos" !important;
+        }
+    </style>
+    <script type="module" id="sso-status-bar-js" src="/cdn/sso-status-bar/src/js/sso-status-bar.js"></script>
+<link href="/dnit/++theme++padrao_govbr/govbrtheme-a13d586.css" rel="stylesheet" /></head>
+
+<body id="" class="default-header-template portal-institucional template-document_view portaltype-document site-pt-br section-assuntos subsection-planejamento-e-pesquisa subsection-planejamento-e-pesquisa-custos-e-pagamentos subsection-planejamento-e-pesquisa-custos-e-pagamentos-custos-e-pagamentos-dnit userrole-anonymous" data-base-url="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" data-portal-url="https://www.gov.br/dnit" dir="ltr">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe height="0" width="0" style="display:none;visibility:hidden" data-src="https://www.googletagmanager.com/ns.html?id=GTM-NHZSKTD"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <nav class="govbr-skip-menu" aria-label="Acesso rápido">
+    <a href="#wrapper" accesskey="1">
+      <span class="sr-only">Ir para o</span>
+      Conteúdo
+      <span class="access-key">1</span>
+    </a>
+    <a href="/" accesskey="2">
+      <span class="sr-only">Ir para a</span>
+      Página Inicial
+      <span class="access-key">2</span>
+    </a>
+    <a href="#main-navigation" accesskey="3">
+      <span class="sr-only">Ir para o menu de</span>
+      Navegação
+      <span class="access-key">3</span>
+    </a>
+    <a href="#govbr-busca-input" accesskey="4">
+      <span class="sr-only">Ir para a</span>
+      Busca
+      <span class="access-key">4</span>
+    </a>
+    <a href="#portal-footer" accesskey="5">
+      <span class="sr-only">Ir para o</span>
+      Mapa do site
+      <span class="access-key">5</span>
+    </a>
+  </nav>
+
+  <noscript aria-label="Aviso de Javascript desabilitado">
+    <dl class="portalMessage attention erro-javascript">
+      <dt>Atenção!</dt>
+      <dd>Seu navegador não pode executar javascript. Alguns recursos podem não funcionar corretamente.</dd>
+    </dl>
+  </noscript>
+<!-- modal session message --><!-- User --><!-- Header --><!--
+    Para habilitar o novo menu &#233; necess&#225;rio descoment&#225;-lo em:
+    govbr/institucional/viewlets/institucional_menu_govbr.pt
+    --><!-- <header id="site-header" class="has-navigation-swipe"> --><header id="site-header" class="has-navigation-dropdown">
+        <div class="header-wrapper secondary">
+            <div class="portal-name">
+                <a href="https://www.gov.br/pt-br" class="portal-logo">
+                    <span class="sr-only">Portal Gov.br</span>
+                </a>
+                <a href="https://www.gov.br/transportes/pt-br" class="nome-orgao">Ministério dos Transportes</a>
+            </div>
+
+            
+        <div class="site-header-links">
+          <div class="links-rapidos">
+            <a class="toggle-links-rapidos" href="#">
+              <span class="fas fa-ellipsis-v"></span>
+              <span class="sr-only">Acesso rápido</span>
+            </a>
+
+            <ul>
+              <li class="titulo">Acesso rápido</li>
+              <li>
+                <a href="https://www.gov.br/pt-br/orgaos-do-governo">Órgãos do Governo</a>
+              </li>
+              <li>
+                <a href="https://www.gov.br/acessoainformacao/pt-br">Acesso à Informação</a>
+              </li>
+              <li>
+                <a href="http://www4.planalto.gov.br/legislacao">Legislação</a>
+              </li>
+              <li>
+                <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital">Acessibilidade</a>
+              </li>
+              <!--<li>
+                <a href="http://www.vlibras.gov.br/" class="link-vlibras">
+                  <span class="fas fa-assistive-listening-systems"></span>
+                </a>
+              </li>-->
+            </ul>
+          </div>
+          <ul class="header-icons">
+            
+            <li>
+              <a href="#" class="reset-cookies" onclick="_redefinirCookies(); return false;">Redefinir Cookies</a>
+            </li>
+            <li>
+              <a href="#" class="link-contraste">
+                <span class="fas fa-adjust" aria-hidden="true"></span>
+                <span class="sr-only">Mudar para o modo de alto contraste</span>
+              </a>
+            </li>
+          </ul>
+
+          <sso-status-bar id="barra-sso" authorization-src="/cdn/oauth2-authorization-client-resources/src/html/oauth2-authorization-url.html" sign-out-href="/cdn/govbrportal/src/html/logout-endpoint.html" sign-in-href="/cdn/govbrportal/src/html/oauth2-authorization-url.html" cookie-monitor-cookie-name="Sso-Authenticated" cookie-monitor-src="https://sso.acesso.gov.br/session-management/html/cookie-monitor-server.html">
+            <sso-status-bar-section title="Minha conta">
+              <sso-status-bar-item title="Dados Pessoais" class="acessogov-menu-cpf" style="display: none" href="https://contas.acesso.gov.br/alteracao_cadastro">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Segurança da Conta" class="acessogov-menu-cpf" style="display: none" href="https://contas.acesso.gov.br/seguranca">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Privacidade" class="acessogov-menu-cpf" style="display: none" href="https://contas.acesso.gov.br/privacidade">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Vincular empresas via e-CNPJ" class="acessogov-menu-cnpj" style="display: none" href="https://empresas.acesso.gov.br">
+              </sso-status-bar-item>
+            </sso-status-bar-section>
+            <sso-status-bar-section title="Serviços">
+              <sso-status-bar-item title="Carteira de Documentos" class="acessogov-menu-cpf" style="display: none" href="https://servicos.acesso.gov.br/carteira">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Baixar certidões" class="acessogov-menu-cpf" style="display: none" href="https://servicos.acesso.gov.br/certidoes">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Assinar documentos digitalmente" class="acessogov-menu-cpf" style="display: none" href="https://assinador.iti.br/assinatura">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Notificações" class="acessogov-menu-cpf" style="display: none" href="https://servicos.acesso.gov.br/notificacoes">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Consultar serviços solicitados" class="acessogov-menu-cpf" style="display: none" href="https://servicos.acesso.gov.br/consultarservicossolicitados">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Agenda GOV.BR" href="https://servicos.acesso.gov.br/agenda">
+              </sso-status-bar-item>
+              <sso-status-bar-item title="Ajuda da conta gov.br" href="https://www.gov.br/governodigital/pt-br/conta-gov-br/ajuda-da-conta-gov.br">
+              </sso-status-bar-item>
+            </sso-status-bar-section>
+          </sso-status-bar>
+        </div>
+      
+
+        </div>
+
+        <div class="main">
+            <div class="header-wrapper">
+
+                <div class="site-name-wrapper">
+                    <a class="ico-navegacao toggle-main-navigation" href="#">
+                        <span class="sr-only">Abrir menu principal de navegação</span>
+                        <span class="fa fa-bars" aria-hidden="true"></span>
+                        <span class="fa fa-times" aria-hidden="true"></span>
+                    </a>
+
+                    <!-- <a href="/" class="site-name">Nome do site</a> -->
+                    <!-- Usar nome completo -->
+                    
+                    <div class="site-name">
+                        <a href="https://www.gov.br/dnit/pt-br">Departamento Nacional de Infraestrutura de Transportes</a>
+                    </div>
+                </div>
+
+                
+            <div class="termos-mais-buscados desktop">
+                <section class="source-termos-mais-buscados">
+                    <div class="source-header-termos-mais-buscados">
+                        Termos mais buscados
+                    </div>
+                    <ul class="list-termos-mais-buscados">
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=assinatura">
+                                   <span class="fa-solid fa-arrow-trend-up"></span>
+                                   assinatura
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=enem">
+                                   <span class="fa-solid fa-arrow-trend-up"></span>
+                                   enem
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=inss">
+                                   <span class="fa-solid fa-arrow-trend-up"></span>
+                                   inss
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=mei">
+                                   <span class="fa-solid fa-arrow-trend-up"></span>
+                                   mei
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=imposto de renda">
+                                   <span class="fa-solid fa-arrow-trend-up"></span>
+                                   imposto de renda
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="termos-mais-buscados mobile">
+                <section class="source-termos-mais-buscados">
+                    <div class="source-header-termos-mais-buscados">
+                        Termos mais buscados
+                    </div>                                
+                    <ul class="list-termos-mais-buscados">
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=assinatura">
+                                    <span class="fa-solid fa-arrow-trend-up"></span>
+                                    assinatura
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=enem">
+                                    <span class="fa-solid fa-arrow-trend-up"></span>
+                                    enem
+                                </a>
+                            </li>
+                        
+                            <li class="item-termos-mais-buscados">
+                                <a href="https://www.gov.br/dnit/pt-br/search?SearchableText=inss">
+                                    <span class="fa-solid fa-arrow-trend-up"></span>
+                                    inss
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </section>
+            </div>
+        <div class="govbr-busca-header">
+                    <div id="govbr-busca-input">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Main Menu -->
+        <nav class="navigation-wrapper navigation-dropdown" aria-label="Menu Principal">
+            <div class="navigation-content">
+                <div id="main-navigation" class="navigation-cell">
+                    <ul class="list-navigation"><li class="selected dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/assuntos" class="plain">Assuntos</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario" class="state-published hasDropDown">
+            
+            Infraestrutura Aquaviária
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/copy_of_atlas-aquaviario" class="state-published">
+            
+            Atlas Aquaviário
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/glossario" class="state-published">
+            
+            Glossário
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/estudos-do-rio-madeira" class="state-published">
+            
+            Estudos do Rio Madeira
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/paineis-informativos" class="state-published">
+            
+            Painéis Informativos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/parcerias_daq" class="state-published">
+            
+            Parcerias DAQ
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/patrimonio" class="state-published">
+            
+            Patrimônio
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/plano-de-monitoramento-hidroviario-pmh" class="state-published">
+            
+            Plano de Monitoramento Hidroviário (PMH)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/plano-anual-de-dragagem-de-manutencao-aquaviaria-padma" class="state-published">
+            
+            Plano Anual de Dragagem de Manutenção Aquaviária (PADMA)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-nacional-de-sinalizacao-aquaviaria-prosinaqua" class="state-published">
+            
+            Programa Nacional de Sinalização Aquaviária (PROSINAQUA)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-de-eclusas-proeclusas" class="state-published">
+            
+            Programa de Eclusas (PROECLUSAS)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-de-ip4-proip4-1" class="state-published">
+            
+            Programa de IP4 (PROIP4)
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/ferrovias" class="state-published">
+            
+            Infraestrutura Ferroviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/infraestrutura-rodoviaria" class="state-published">
+            
+            Infraestrutura Rodoviária
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa" class="state-published hasDropDown">
+            
+            Planejamento e Pesquisa
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/meio-ambiente" class="state-published">
+            
+            Meio Ambiente
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/planejamento" class="state-published">
+            
+            Planejamento e Programação de Investimentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/desenvolvimento-e-projetos" class="state-published">
+            
+            Desenvolvimento de Projetos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/desapropriacao-e-reassentamento" class="state-published">
+            
+            Desapropriação e Reassentamento
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/bim-no-dnit" class="state-published">
+            
+            BIM no DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/eninfra" class="state-published">
+            
+            ENINFRA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr" class="state-published">
+            
+            Instituto de Pesquisas em Transportes - IPR
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/instituto-nacional-de-pesquisas-hidroviarias" class="state-published">
+            
+            Instituto Nacional de Pesquisas Hidroviárias
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos" class="state-published">
+            
+            Custos e Pagamentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/custos-referenciais" class="state-published">
+            
+            Custos Referenciais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            Sistema Nacional de Viação
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/governanca-estrategia-e-riscos" class="state-published">
+            
+            Governança, Estratégia e Riscos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/campanhas-e-eventos" class="state-published">
+            
+            Campanhas e Eventos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/integridade" class="state-published">
+            
+            Integridade
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos" class="state-published hasDropDown">
+            
+            Portais Temáticos
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/concilia-br-381" class="state-published">
+            
+            Concilia BR-381/MG
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/dnit-sem-papel" class="state-published">
+            
+            DNIT Sem Papel
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-319-am-ro" class="state-published">
+            
+            BR-319 AM/RO
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-280-sc" class="state-published">
+            
+            BR-280 SC
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/dnit-20-anos" class="state-published">
+            
+            DNIT 20 Anos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-135-ma" class="state-published">
+            
+            BR-135 MA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/audiencia-publica-br-135-ba" class="state-published">
+            
+            Audiência Pública BR-135/BA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/audiencia-publica-br-316-pa" class="state-published">
+            
+            Audiência Pública BR-316/PA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/contorno-ferroviario-de-joinville" class="state-published">
+            
+            Contorno Ferroviário de Joinville
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas" class="state-published hasDropDown">
+            
+            Atlas e Mapas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/atlas-multimodais" class="state-published">
+            
+            Atlas Multimodais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/dnit-geo/mapas-multimodais/mapa-do-brasil" class="state-published">
+            
+            Mapas Multimodais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            PNV e SNV
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://servicos.dnit.gov.br/vgeo/" class="state-published">
+            
+            VGeo
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao" class="plain">Acesso à Informação</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional" class="state-published hasDropDown">
+            
+            Institucional
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/agenda-de-autoridades/" class="state-published">
+            
+            Agenda de Autoridades
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/organograma" class="state-published">
+            
+            Organograma
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/quem-e-quem/" class="state-published">
+            
+            Quem é Quem
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/regimento-interno" class="state-published">
+            
+            Regimento Interno
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/governanca-estrategia-e-riscos/eixos-da-governanca/gestao-estrategica/mapa-estrategico-2021-2022" class="state-published">
+            
+            Mapa Estratégico
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/base-juridica-da-estrutura-organizacional-e-das-competencias" class="state-published">
+            
+            Base Jurídica da Estrutura Organizacional e das Competências
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/competencias-por-nivel-hierarquico" class="state-published">
+            
+            Competências por Nível Hierárquico
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas" class="state-published hasDropDown">
+            
+            Ações e Programas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/dnit-sustentavel" class="state-published">
+            
+            DNIT Sustentável
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/renuncia-de-receitas" class="state-published">
+            
+            Renúncia de Receitas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/programas-financiados-pelo-fundo-de-amparo-ao-trabalhador-fat" class="state-published">
+            
+            Programas Financiados pelo Fundo de Amparo ao Trabalhador (FAT)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/painel-de-acompanhamento-dos-infratores-do-plano-nacional-de-pesagem-pnp" class="state-published">
+            
+            Painel de acompanhamento dos infratores do Plano Nacional de Pesagem – PNP
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social" class="state-published hasDropDown">
+            
+            Participação Social
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas" class="state-published">
+            
+            Audiências Públicas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/consultas-publicas" class="state-published">
+            
+            Consultas Públicas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/auditoria" class="state-published">
+            
+            Auditorias
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/convenios" class="state-published hasDropDown">
+            
+            Convênios e Transferências
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/convenios/termos-de-execucao-descentralizada" class="state-published">
+            
+            Termos de Execução Descentralizada
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas" class="state-published hasDropDown">
+            
+            Receitas e Despesas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/receitas-e-despesas" class="state-published">
+            
+            Receitas e Despesas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/receitas-e-despesas-das-multas-de-transito" class="state-published">
+            
+            Receitas e Despesas das Multas de Trânsito
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/execucao-financeira" class="state-published">
+            
+            Execução Financeira
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/execucao-orcamentaria" class="state-published">
+            
+            Execução Orçamentária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/cadernos-orcamentarios" class="state-published">
+            
+            Cadernos Orçamentários
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/diarias-e-passagens" class="state-published">
+            
+            Diárias e Passagens
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes" class="state-published hasDropDown">
+            
+            Licitações e Contratos
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/saiba-mais-licitacoes-e-contratos" class="state-published">
+            
+            Licitações no portal DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/passo-a-passo-acesso-a-informacao-das-licitacoes.pdf/" class="state-published">
+            
+            Passo a Passo – Acesso à Informação das Licitações
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/" class="state-published">
+            
+            Contratos no portal DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/passo-a-passo-contratos.pdf/" class="state-published">
+            
+            Passo a Passo - Acesso à Informação dos Contratos
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores" class="state-published hasDropDown">
+            
+            Servidores
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/processos-seletivos" class="state-published">
+            
+            Processos Seletivos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/servidores-e-terceirizados" class="state-published">
+            
+            Servidores e Terceirizados
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/concurso-publico" class="state-published">
+            
+            Concurso Público
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/relatorios" class="state-published">
+            
+            Relatórios
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/teletrabalho" class="state-published">
+            
+            Teletrabalho
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/programa-de-gestao-e-desempenho" class="state-published">
+            
+            Programa de Gestão e Desempenho
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/desenvolvimento-de-pessoas" class="state-published">
+            
+            Desenvolvimento de Pessoas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/informacoes-classificadas" class="state-published">
+            
+            Informações Classificadas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic" class="state-published">
+            
+            Serviço de Informação ao Cidadão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/perguntas-frequentes" class="state-published">
+            
+            Perguntas Frequentes
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/dados-abertos" class="state-published">
+            
+            Dados Abertos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/sobre-a-lei-de-acesso-a-informacao" class="state-published">
+            
+            Sobre a Lei de Acesso à Informação
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/demonstrativos-contabeis" class="state-published">
+            
+            Demonstrativos Contábeis
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas" class="state-published hasDropDown">
+            
+            Transparência e Prestação de Contas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas" class="state-published">
+            
+            Relatório de Gestão 2023
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/auditorias-antiga/relatorio-de-gestao" class="state-published">
+            
+            Relatório de Gestão – exercícios anteriores
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/pt-br/orgaos/departamento-nacional-de-infraestrutura-de-transportes" class="state-published">
+            
+            Carta de Serviços
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais" class="state-published hasDropDown">
+            
+            Tratamento de Dados Pessoais
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais/perguntas-frequentes-sobre-a-lgpd-e-atuacao-da-autoridade-nacional-de-protecao-de-dados-anpd" class="state-published">
+            
+            Perguntas Frequentes sobre a LGPD e atuação da Autoridade Nacional de Proteção de Dados (ANPD)
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/bens-moveis-e-imoveis" class="state-published hasDropDown">
+            
+            Bens Móveis e Imóveis
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/bens-moveis-e-imoveis/paineis-gerenciais" class="state-published">
+            
+            Painéis Gerenciais
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/emendas-parlamentares-rp9" class="state-published">
+            
+            Emendas Parlamentares - RP9
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/composicao" class="plain">Composição</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria" class="state-published hasDropDown">
+            
+            Diretoria
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-geral" class="state-published">
+            
+            Diretoria-Geral
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-executiva" class="state-published">
+            
+            Diretoria Executiva
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-administracao-e-financas" class="state-published">
+            
+            Diretoria de Administração e Finanças
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-planejamento-e-pesquisa" class="state-published">
+            
+            Diretoria de Planejamento e Pesquisa
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-aquaviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Aquaviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-rodoviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Rodoviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-ferroviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Ferroviária
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais" class="state-published hasDropDown">
+            
+            Superintendências Regionais
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/acre" class="state-published">
+            
+            Acre
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/alagoas" class="state-published">
+            
+            Alagoas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/amapa" class="state-published">
+            
+            Amapá
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/amazonas" class="state-published">
+            
+            Amazonas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/bahia" class="state-published">
+            
+            Bahia
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/ceara" class="state-published">
+            
+            Ceará
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/espirito-santo" class="state-published">
+            
+            Espírito Santo
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/goias-e-distrito-federal" class="state-published">
+            
+            Goiás e Distrito Federal
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/maranhao" class="state-published">
+            
+            Maranhão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/mato-grosso" class="state-published">
+            
+            Mato Grosso
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/mato-grosso-do-sul" class="state-published">
+            
+            Mato Grosso do Sul
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/minas-gerais" class="state-published">
+            
+            Minas Gerais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/para" class="state-published">
+            
+            Pará
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/paraiba" class="state-published">
+            
+            Paraíba
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/parana" class="state-published">
+            
+            Paraná
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/pernambuco" class="state-published">
+            
+            Pernambuco
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/piaui" class="state-published">
+            
+            Piauí
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-de-janeiro" class="state-published">
+            
+            Rio de Janeiro
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-grande-do-norte" class="state-published">
+            
+            Rio Grande do Norte
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-grande-do-sul" class="state-published">
+            
+            Rio Grande do Sul
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rondonia" class="state-published">
+            
+            Rondônia
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/roraima" class="state-published">
+            
+            Roraima
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/santa-catarina" class="state-published">
+            
+            Santa Catarina
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/sao-paulo" class="state-published">
+            
+            São Paulo
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/sergipe" class="state-published">
+            
+            Sergipe
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/tocantins" class="state-published">
+            
+            Tocantins
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada" class="state-published hasDropDown">
+            
+            Diretoria Colegiada
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/composicao" class="state-published">
+            
+            Composição
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/competencia" class="state-published">
+            
+            Competência
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/atas" class="state-published">
+            
+            Atas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/extrato-de-atas" class="state-published">
+            
+            Extrato de Atas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados" class="state-published hasDropDown">
+            
+            Órgãos Vinculados
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/auditoria" class="state-published">
+            
+            Auditoria Interna
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/corregedoria" class="state-published">
+            
+            Corregedoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/procuradoria" class="state-published">
+            
+            Procuradoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/conselho-de-administracao" class="state-published">
+            
+            Conselho de Administração
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/comites" class="state-published">
+            
+            Comitês
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/quem-e-quem" class="state-published">
+            
+            Quem é Quem
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/canais_atendimento" class="plain">Canais de Atendimento</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Fale Conosco
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/canais_atendimento/imprensa" class="state-published">
+            
+            Imprensa
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/canais_atendimento/comunicacao-social" class="state-published">
+            
+            Comunicação Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/multas" class="state-published">
+            
+            Portal de Multas
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/central-de-conteudos" class="plain">Central de Conteúdos</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/publicacoes" class="state-published hasDropDown">
+            
+            Publicações
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/publicacoes/manual-de-gestao-da-marca" class="state-published">
+            
+            Manuais de Gestão da Marca
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/noticias-alerta-de-servicos" class="state-published">
+            
+            Alertas DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/noticias/" class="state-published">
+            
+            Notícias
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas" class="state-published hasDropDown">
+            
+            Instruções - Procedimento Padrão
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/instrucao-de-registro-cadastral" class="state-published">
+            
+            Instrução de Registro Cadastral
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/portarias" class="state-published">
+            
+            Procedimento Padrão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/instrucoes-de-servicos" class="state-published">
+            
+            Instruções de Serviços
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/delegacoes-de-competencia-1" class="state-published">
+            
+            Delegações de Competência
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/atos-normativos" class="state-published">
+            
+            Atos Normativos
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/servicos" class="plain">Serviços</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/proarte" class="state-published">
+            
+            Proarte
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/portal-cidadao" class="state-published">
+            
+            Portal Cidadão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/portal-de-multas" class="state-published">
+            
+            Portal de Multas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/sistemas-gerenciais" class="state-published">
+            
+            Sistemas Gerenciais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/agenda" class="state-published">
+            
+            Agenda
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/custos-e-pagamentos" class="state-published">
+            
+            Custos e Pagamentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/licitacoes-e-contratos" class="state-published">
+            
+            Licitações e Contratos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/consulta-processual" class="state-published">
+            
+            Consulta Processual
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/fala-br" class="state-published">
+            
+            Fala BR
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/autorizacao-especial-de-transito-aet" class="state-published">
+            
+            Autorização Especial de Trânsito - AET
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/pontos-de-parada-e-descanso" class="state-published">
+            
+            Pontos de Parada e Descanso
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            Plano Nacional de Viação e Sistema Nacional de Viação
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/rodovias/operacoes-rodoviarias/faixa-de-dominio" class="state-published">
+            
+            Faixa de Domínio
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/dnit-sustentavel/" class="state-published">
+            
+            DNIT Sustentável
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-govbr-root" class="plain dropdown-submenu menu-govbr-root">
+            <a class="plain" href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024">
+                <span>GOV.BR</span>
+            </a>
+            <!-- Menu nivel1 -->
+            <ul class="submenu navTree">
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/servicos" class="hasDropDown">Serviços</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="dropdown-submenu">
+                <a href="https://www.gov.br/pt-br/servicos/buscar-servicos-por">Buscar serviços por</a>
+                
+                    
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/categorias">Categorias</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_orgaos">Órgãos</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos-estaduais">Estados</a>
+                
+            </li>
+        
+    </ul>
+
+                
+            </li>
+        
+            <li class="dropdown-submenu">
+                <a href="https://www.gov.br/pt-br/servicos/servicos-por-publico-alvo">Serviços por público alvo</a>
+                
+                    
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_servicos_segmento?segmento=publico_alvo_cidadaos">Cidadãos</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_servicos_segmento?segmento=publico_alvo_empresas">Empresas</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_servicos_segmento?segmento=publico_alvo_orgaos">Órgãos e Entidades Públicas</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_servicos_segmento?segmento=publico_alvo_outros">Demais segmentos (ONGs, organizações sociais, etc)</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/servicos/listar_servicos_segmento?segmento=publico_alvo_servidor">Servidor Público</a>
+                
+            </li>
+        
+    </ul>
+
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/temas-em-destaque" class="hasDropDown">Temas em Destaque</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/transparencia-fiscal-orcamento-nacional">Orçamento Nacional</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/redes-civis-de-unidades-de-atendimento-do-governo-federal">Redes de Atendimento do Governo Federal</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/protecao-de-dados-pessoais">Proteção de Dados Pessoais</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/servicos-para-imigrantes">Serviços para Imigrantes</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/politica-e-orcamento-educacional">Política e Orçamento Educacionais</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/bolsas-de-estudos-e-financiamentos-estudantis">Bolsas de Estudo e Financiamentos Estudantis</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/educacao-profissional-e-tecnologica-1">Educação Profissional e Tecnológica</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/habilidades-online-para-jovens-e-adultos">Educação Profissional para Jovens e Adultos</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/trabalho-emprego">Trabalho e Emprego</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/acesso-a-educacao-para-pessoas-com-deficiencia">Serviços para Pessoas com Deficiência</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/politica-e-legislacao-contra-a-discriminacao-racial">Combate à Discriminação Racial</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/politica-e-orcamento-de-protecao-social">Política de Proteção Social</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/politica-para-mulheres">Política para Mulheres</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/saude-reprodutiva-da-mulher">Saúde Reprodutiva da Mulher</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/desenvolvimento-cuidados-e-educacao-pre-escolar">Cuidados na Primeira Infância</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/habitacao-popular">Habitação Popular</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/temas/controle-da-poluicao-e-outras-medidas-de-precaucao">Controle de Poluição e Resíduos Sólidos</a>
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/noticias" class="hasDropDown">Notícias</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/servicos-para-o-cidadao">Serviços para o cidadão</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria">Saúde</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/agricultura-e-pecuaria">Agricultura e Pecuária</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/assistencia-social">Cidadania e Assistência Social</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/ciencia-e-tecnologia">Ciência e Tecnologia</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/comunicacao">Comunicação</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/cultura-artes-historia-e-esportes">Cultura e Esporte</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/financas-impostos-e-gestao-publica">Economia e Gestão Pública</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/educacao-e-pesquisa">Educação e Pesquisa</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/energia-minerais-e-combustiveis">Energia</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/forcas-armadas">Forças Armadas e Defesa Civil</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/transito-e-transportes">Infraestrutura</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/justica-e-seguranca">Justiça e Segurança</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/meio-ambiente-e-clima">Meio Ambiente</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/trabalho-e-previdencia">Trabalho e Previdência</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/noticias/viagens-e-turismo">Turismo</a>
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/pt-br/apps/@@galeria-de-aplicativos" class="hasDropDown">Galeria de Aplicativos</a>
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="/planalto" class="hasDropDown">Acompanhe o Planalto</a>
+                        
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/navegacao" class="hasDropDown">Navegação</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital">Acessibilidade</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/sitemap">Mapa do Site</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="/pt-br/termos-de-uso">Termo de Uso e Aviso de Privacidade</a>
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/atendimento-gov.br/duvidas-na-plataforma-de-automacao/cidadao/consultar-as-minhas-solicitacoes" class="hasDropDown">Consultar minhas solicitações</a>
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/pt-br/orgaos-do-governo" class="hasDropDown">Órgãos do Governo</a>
+                        
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/por-dentro-do-govbr" class="hasDropDown">Por dentro do Gov.br</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/por-dentro-do-govbr/perguntas-frequentes">Dúvidas Frequentes em relação ao Portal gov.br</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="http://faq-login-unico.servicos.gov.br/en/latest/">Dúvidas Frequentes da conta gov.br</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/por-dentro-do-govbr/ajuda-para-navegar-o-portal">Ajuda para Navegar o Portal</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/por-dentro-do-govbr/conheca-os-elementos-do-portal">Conheça os elementos do Portal</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/participamaisbrasil/sobre">Política de e-participação</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="/pt-br/termos-de-uso">Termos de Uso</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/governodigital/pt-br">Governo Digital</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/pt-br/guia-de-edicao-de-servicos-do-gov.br/bem-vindo-editor">Guia de Edição de Serviços do Portal Gov.br</a>
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/pt-br/canais-do-executivo-federal" class="hasDropDown">Canais do Executivo Federal</a>
+                        
+                    </li>
+                
+                    <li class="dropdown-submenu">
+                        <a href="https://www.gov.br/pt-br/dados-do-governo-federal" class="hasDropDown">Dados do Governo Federal</a>
+                        
+                            
+    <ul class="submenu navTree">
+        
+            <li class="plain">
+                <a href="/governodigital/pt-br/dados-abertos">Dados Abertos</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/gestao/pt-br/acesso-a-informacao/servidores/servidores-publicos/painel-estatistico-de-pessoal">Painel Estatístico de Pessoal</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="http://paineldecompras.economia.gov.br">Painel de Compras do Governo Federal</a>
+                
+            </li>
+        
+            <li class="plain">
+                <a href="https://www.gov.br/acessoainformacao/pt-br">Acesso à Informação</a>
+                
+            </li>
+        
+    </ul>
+
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/empresas-e-negocios/pt-br" class="hasDropDown">Empresas e Negócios</a>
+                        
+                    </li>
+                
+                    <li class="plain">
+                        <a href="https://www.gov.br/fazenda/pt-br/canais_atendimento/ouvidoria/simplifique/simplifique" class="hasDropDown">Simplifique!</a>
+                        
+                    </li>
+                
+            </ul>
+        </li></ul>
+                </div>
+            </div>
+
+            <div class="navigation-content-extra">
+                <div class="links-redes-wrap">
+            <div class="links-uteis">
+              <div class="titulo">Links Úteis</div>
+              <ul>
+                <!-- <li>
+                  <a href="#">Órgãos do Governo</a>
+                </li> -->
+                <li>
+                  <a href="https://www.gov.br/pt-br/apps/@@galeria-de-aplicativos">Galeria de Aplicativos</a>
+                </li>
+                <li>
+                  <a href="https://www.gov.br/pt-br/participacao-social">Participe</a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-accessibility">
+              <ul>
+                <!--li>
+                  <a
+                    href="https://www.gov.br/pt-br/orgaos-do-governo"
+                    class="orgaos-de-governo"
+                    i18n:translate="orgaos_do_governo"
+                    >Órgãos do Governo</a
+                  >
+                </li-->
+                <li>
+                  <a href="https://www.gov.br/pt-br/apps/@@galeria-de-aplicativos">Galeria de Aplicativos</a>
+                </li>
+                <!--li>
+                  <a href="http://www4.planalto.gov.br/legislacao" i18n:translate="legislacao"
+                    >Legislação</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.gov.br/acessoainformacao/pt-br" i18n:translate="acesso_a_informacao"
+                    >Acesso à Informação</a
+                  >
+                </li-->
+                <li>
+                  <a href="https://www.gov.br/pt-br/participacao-social">Participe</a>
+                </li>
+              </ul>
+            </div>
+          
+                    <div class="redes-sociais">
+                        <div class="titulo">Redes sociais</div>
+                    <ul class="portal-redes">
+            
+                <li class="portalredes-facebook portalredes-item">
+                    <a href="https://www.facebook.com/dnitoficial">Facebook</a>
+                </li>
+            
+                <li class="portalredes-instagram portalredes-item">
+                    <a href="https://www.instagram.com/dnitoficial">Instagram</a>
+                </li>
+            
+                <li class="portalredes-linkedin portalredes-item">
+                    <a href="https://linkedin.com/company/dnitoficial">Linkedin</a>
+                </li>
+            
+        </ul></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Menu -->
+        
+    </header><div id="portal-breadcrumbs-wrapper">
+        <nav id="breadcrumbs" aria-label="Histórico de navegação (Breadcrumbs)">
+            <div class="content">
+                <span class="sr-only">Você está aqui:</span>
+                <span class="home">
+            <a href="https://www.gov.br/dnit/pt-br">
+              <span class="fas fa-home" aria-hidden="true"></span>
+                <span class="sr-only">Página Inicial</span>
+                </a>
+                </span>
+            
+
+    
+    
+    <span dir="ltr" id="breadcrumbs-1">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos">Assuntos</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-2">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa">Planejamento e Pesquisa</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-3">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos">Custos e Pagamentos</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-4">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit">Custos Referenciais</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-5">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos">Sistemas de Custos</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-6">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga">SICRO</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-7">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte">Norte</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-8">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre">Acre</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-9">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024">2024</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-10">
+        
+            <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro">Janeiro</a>
+            
+            
+         
+    </span>
+    <span dir="ltr" id="breadcrumbs-11">
+        
+            
+            
+            <span id="breadcrumbs-current">Janeiro - 2024</span>
+         
+    </span>
+
+</div>
+        </nav>
+    </div><!-- <div class="video"></div> --><div id="wrapper">
+        <!-- Columns -->
+
+        <div id="main">
+            
+
+            <main id="main-content">
+
+            <div id="viewlet-above-content">
+
+
+
+
+    
+        <script type="application/ld+json">{"@context": "http://schema.org", "itemListElement": [{"position": 1, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos", "name": "Assuntos"}, {"position": 2, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa", "name": "Planejamento e Pesquisa"}, {"position": 3, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos", "name": "Custos e Pagamentos"}, {"position": 4, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit", "name": "Custos Referenciais"}, {"position": 5, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos", "name": "Sistemas de Custos"}, {"position": 6, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga", "name": "SICRO"}, {"position": 7, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte", "name": "Norte"}, {"position": 8, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre", "name": "Acre"}, {"position": 9, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024", "name": "2024"}, {"position": 10, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro", "name": "Janeiro"}, {"position": 11, "@type": "ListItem", "item": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024", "name": "Janeiro - 2024"}], "@type": "BreadcrumbList"}</script>
+    
+
+
+
+
+    
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+    
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+                             <div id="viewlet-above-content-title"></div>
+                             
+                                 
+                                 
+            
+            <h1 class="documentFirstHeading">Janeiro - 2024</h1>
+        
+                             
+                             <div id="viewlet-below-content-title"></div>
+
+                             
+                                 
+                                 
+            
+            
+        
+                             
+
+                             <div id="viewlet-above-content-body">
+    
+    
+        <div class="social-links">
+            <label>Compartilhe: </label>
+            
+                
+                    <a href="http://www.facebook.com/sharer.php?u=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" title="Facebook" class="">
+                        <span aria-hidden="true" class="fab fa-facebook-f"></span>
+                        <span class="sr-only">Compartilhe por Facebook</span>
+                    </a>
+                
+                    <a href="https://twitter.com/share?text=Janeiro%20-%202024&amp;url=https://www.gov.br/dnit/resolveuid/add3d8d60b56461288dcdd456229c4a9" title="Twitter" class="">
+                        <span aria-hidden="true" class="fab fa-x-twitter"></span>
+                        <span class="sr-only">Compartilhe por Twitter</span>
+                    </a>
+                
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024&amp;title=Janeiro%20-%202024" title="LinkedIn" class="">
+                        <span aria-hidden="true" class="fab fa-linkedin-in"></span>
+                        <span class="sr-only">Compartilhe por LinkedIn</span>
+                    </a>
+                
+                    <a href="https://api.whatsapp.com/send?text=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" title="WhatsApp" class="link-whatsapp">
+                        <span aria-hidden="true" class="fab fa-whatsapp"></span>
+                        <span class="sr-only">Compartilhe por WhatsApp</span>
+                    </a>
+                
+            
+            <a class="link-clipboard" onclick="event.preventDefault()" title="Copiar para área de transferência" href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024">
+                <span class="fas fa-link" aria-hidden="true"></span>
+                <span class="sr-only">link para Copiar para área de transferência</span>
+            </a>
+            <!--a class="toggle-social-links">
+                <span class="fas fa-share-alt"></span>
+                <span class="fas fa-times"></span>
+            </a-->
+        </div>
+        <script>
+            new ClipboardJS('.link-clipboard', {
+                text: function(trigger) {
+                    return trigger.getAttribute('href');
+                }
+            });
+        </script>
+    
+
+<div class="documentByLine" id="plone-document-byline">
+  
+
+  
+
+  
+      <span class="documentPublished">
+        <span>Publicado em</span>
+        <!-- TODO: Criar no arquivo de tradução uma máscara para a data aparecer no seguinte formato:
+             PT_BR: 15/10/2019 às 14:01
+             EN   : 10/15/2019 at 14:01
+        -->
+        <span class="value">16/04/2024 17h58</span>
+      </span>
+      <!-- TODO: Fazer esta comparação de uma forma melhor -->
+      <span class="documentModified">
+        <span>Atualizado em</span>
+        <span class="value">16/04/2024 18h11</span>
+      </span>
+  
+
+  
+
+  
+
+  
+
+  
+</div>
+
+</div>
+                             <div id="content-core">
+                                 
+
+  <div id="parent-fieldname-text"><p><a target="_self" title="" data-tippreview-image="" href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/ac-01-2024.zip" data-tippreview-title="" class="internal-link" data-tippreview-enabled="false">Janeiro/2024</a></p></div>
+
+
+                             </div>
+                             <div id="viewlet-below-content-body">
+
+
+
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+</div>
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+
+
+
+
+
+
+    
+    
+        <div class="social-links">
+            <label>Compartilhe: </label>
+            
+                
+                    <a href="http://www.facebook.com/sharer.php?u=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" title="Facebook" class="">
+                        <span aria-hidden="true" class="fab fa-facebook-f"></span>
+                        <span class="sr-only">Compartilhe por Facebook</span>
+                    </a>
+                
+                    <a href="https://twitter.com/share?text=Janeiro%20-%202024&amp;url=https://www.gov.br/dnit/resolveuid/add3d8d60b56461288dcdd456229c4a9" title="Twitter" class="">
+                        <span aria-hidden="true" class="fab fa-x-twitter"></span>
+                        <span class="sr-only">Compartilhe por Twitter</span>
+                    </a>
+                
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024&amp;title=Janeiro%20-%202024" title="LinkedIn" class="">
+                        <span aria-hidden="true" class="fab fa-linkedin-in"></span>
+                        <span class="sr-only">Compartilhe por LinkedIn</span>
+                    </a>
+                
+                    <a href="https://api.whatsapp.com/send?text=https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024" title="WhatsApp" class="link-whatsapp">
+                        <span aria-hidden="true" class="fab fa-whatsapp"></span>
+                        <span class="sr-only">Compartilhe por WhatsApp</span>
+                    </a>
+                
+            
+            <a class="link-clipboard" onclick="event.preventDefault()" title="Copiar para área de transferência" href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/acre/2024/janeiro/janeiro-2024">
+                <span class="fas fa-link" aria-hidden="true"></span>
+                <span class="sr-only">link para Copiar para área de transferência</span>
+            </a>
+            <!--a class="toggle-social-links">
+                <span class="fas fa-share-alt"></span>
+                <span class="fas fa-times"></span>
+            </a-->
+        </div>
+        <script>
+            new ClipboardJS('.link-clipboard', {
+                text: function(trigger) {
+                    return trigger.getAttribute('href');
+                }
+            });
+        </script>
+    
+
+
+  
+
+
+<div class="govbr-recom-config" data-recom-history-title="Serviços que você acessou">
+
+
+            
+    
+
+</div>
+
+
+
+
+</div>
+        </main>
+
+            
+        </div>
+
+        <div class="conteudo-relacionado"></div>
+
+        <div class="govbr-history-render"></div>
+
+        <footer id="portal-footer" class="portal-footer">
+            <div class="footer-wrapper">
+                <div class="govbr-logo"></div>
+                <!--<div class="colunas-rodape">
+              <div class="coluna-menu">-->
+                <ul class="list-navigation"><li class="selected dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/assuntos" class="plain">Assuntos</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario" class="state-published hasDropDown">
+            
+            Infraestrutura Aquaviária
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/copy_of_atlas-aquaviario" class="state-published">
+            
+            Atlas Aquaviário
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/glossario" class="state-published">
+            
+            Glossário
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/estudos-do-rio-madeira" class="state-published">
+            
+            Estudos do Rio Madeira
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/paineis-informativos" class="state-published">
+            
+            Painéis Informativos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/parcerias_daq" class="state-published">
+            
+            Parcerias DAQ
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/patrimonio" class="state-published">
+            
+            Patrimônio
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/plano-de-monitoramento-hidroviario-pmh" class="state-published">
+            
+            Plano de Monitoramento Hidroviário (PMH)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/plano-anual-de-dragagem-de-manutencao-aquaviaria-padma" class="state-published">
+            
+            Plano Anual de Dragagem de Manutenção Aquaviária (PADMA)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-nacional-de-sinalizacao-aquaviaria-prosinaqua" class="state-published">
+            
+            Programa Nacional de Sinalização Aquaviária (PROSINAQUA)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-de-eclusas-proeclusas" class="state-published">
+            
+            Programa de Eclusas (PROECLUSAS)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/aquaviario/programa-de-ip4-proip4-1" class="state-published">
+            
+            Programa de IP4 (PROIP4)
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/ferrovias" class="state-published">
+            
+            Infraestrutura Ferroviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/infraestrutura-rodoviaria" class="state-published">
+            
+            Infraestrutura Rodoviária
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa" class="state-published hasDropDown">
+            
+            Planejamento e Pesquisa
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/meio-ambiente" class="state-published">
+            
+            Meio Ambiente
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/planejamento" class="state-published">
+            
+            Planejamento e Programação de Investimentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/desenvolvimento-e-projetos" class="state-published">
+            
+            Desenvolvimento de Projetos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/desapropriacao-e-reassentamento" class="state-published">
+            
+            Desapropriação e Reassentamento
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/bim-no-dnit" class="state-published">
+            
+            BIM no DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/eninfra" class="state-published">
+            
+            ENINFRA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr" class="state-published">
+            
+            Instituto de Pesquisas em Transportes - IPR
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/instituto-nacional-de-pesquisas-hidroviarias" class="state-published">
+            
+            Instituto Nacional de Pesquisas Hidroviárias
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos" class="state-published">
+            
+            Custos e Pagamentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/custos-referenciais" class="state-published">
+            
+            Custos Referenciais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            Sistema Nacional de Viação
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/governanca-estrategia-e-riscos" class="state-published">
+            
+            Governança, Estratégia e Riscos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/campanhas-e-eventos" class="state-published">
+            
+            Campanhas e Eventos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/integridade" class="state-published">
+            
+            Integridade
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos" class="state-published hasDropDown">
+            
+            Portais Temáticos
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/concilia-br-381" class="state-published">
+            
+            Concilia BR-381/MG
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/dnit-sem-papel" class="state-published">
+            
+            DNIT Sem Papel
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-319-am-ro" class="state-published">
+            
+            BR-319 AM/RO
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-280-sc" class="state-published">
+            
+            BR-280 SC
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/dnit-20-anos" class="state-published">
+            
+            DNIT 20 Anos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/br-135-ma" class="state-published">
+            
+            BR-135 MA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/audiencia-publica-br-135-ba" class="state-published">
+            
+            Audiência Pública BR-135/BA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/audiencia-publica-br-316-pa" class="state-published">
+            
+            Audiência Pública BR-316/PA
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/portais-tematicos/contorno-ferroviario-de-joinville" class="state-published">
+            
+            Contorno Ferroviário de Joinville
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas" class="state-published hasDropDown">
+            
+            Atlas e Mapas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/atlas-multimodais" class="state-published">
+            
+            Atlas Multimodais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/dnit-geo/mapas-multimodais/mapa-do-brasil" class="state-published">
+            
+            Mapas Multimodais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            PNV e SNV
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://servicos.dnit.gov.br/vgeo/" class="state-published">
+            
+            VGeo
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao" class="plain">Acesso à Informação</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional" class="state-published hasDropDown">
+            
+            Institucional
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/agenda-de-autoridades/" class="state-published">
+            
+            Agenda de Autoridades
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/organograma" class="state-published">
+            
+            Organograma
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/quem-e-quem/" class="state-published">
+            
+            Quem é Quem
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/regimento-interno" class="state-published">
+            
+            Regimento Interno
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/governanca-estrategia-e-riscos/eixos-da-governanca/gestao-estrategica/mapa-estrategico-2021-2022" class="state-published">
+            
+            Mapa Estratégico
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/base-juridica-da-estrutura-organizacional-e-das-competencias" class="state-published">
+            
+            Base Jurídica da Estrutura Organizacional e das Competências
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/institucional/competencias-por-nivel-hierarquico" class="state-published">
+            
+            Competências por Nível Hierárquico
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas" class="state-published hasDropDown">
+            
+            Ações e Programas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/dnit-sustentavel" class="state-published">
+            
+            DNIT Sustentável
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/renuncia-de-receitas" class="state-published">
+            
+            Renúncia de Receitas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/programas-financiados-pelo-fundo-de-amparo-ao-trabalhador-fat" class="state-published">
+            
+            Programas Financiados pelo Fundo de Amparo ao Trabalhador (FAT)
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/painel-de-acompanhamento-dos-infratores-do-plano-nacional-de-pesagem-pnp" class="state-published">
+            
+            Painel de acompanhamento dos infratores do Plano Nacional de Pesagem – PNP
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social" class="state-published hasDropDown">
+            
+            Participação Social
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/audiencias-publicas" class="state-published">
+            
+            Audiências Públicas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/participacao-social/consultas-publicas" class="state-published">
+            
+            Consultas Públicas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/auditoria" class="state-published">
+            
+            Auditorias
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/convenios" class="state-published hasDropDown">
+            
+            Convênios e Transferências
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/convenios/termos-de-execucao-descentralizada" class="state-published">
+            
+            Termos de Execução Descentralizada
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas" class="state-published hasDropDown">
+            
+            Receitas e Despesas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/receitas-e-despesas" class="state-published">
+            
+            Receitas e Despesas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/receitas-e-despesas-das-multas-de-transito" class="state-published">
+            
+            Receitas e Despesas das Multas de Trânsito
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/execucao-financeira" class="state-published">
+            
+            Execução Financeira
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/execucao-orcamentaria" class="state-published">
+            
+            Execução Orçamentária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/cadernos-orcamentarios" class="state-published">
+            
+            Cadernos Orçamentários
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/despesas/diarias-e-passagens" class="state-published">
+            
+            Diárias e Passagens
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes" class="state-published hasDropDown">
+            
+            Licitações e Contratos
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/saiba-mais-licitacoes-e-contratos" class="state-published">
+            
+            Licitações no portal DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/passo-a-passo-acesso-a-informacao-das-licitacoes.pdf/" class="state-published">
+            
+            Passo a Passo – Acesso à Informação das Licitações
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/" class="state-published">
+            
+            Contratos no portal DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/licitacoes/passo-a-passo-contratos.pdf/" class="state-published">
+            
+            Passo a Passo - Acesso à Informação dos Contratos
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores" class="state-published hasDropDown">
+            
+            Servidores
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/processos-seletivos" class="state-published">
+            
+            Processos Seletivos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/servidores-e-terceirizados" class="state-published">
+            
+            Servidores e Terceirizados
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/concurso-publico" class="state-published">
+            
+            Concurso Público
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/relatorios" class="state-published">
+            
+            Relatórios
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/teletrabalho" class="state-published">
+            
+            Teletrabalho
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/programa-de-gestao-e-desempenho" class="state-published">
+            
+            Programa de Gestão e Desempenho
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servidores/desenvolvimento-de-pessoas" class="state-published">
+            
+            Desenvolvimento de Pessoas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/informacoes-classificadas" class="state-published">
+            
+            Informações Classificadas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic" class="state-published">
+            
+            Serviço de Informação ao Cidadão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/perguntas-frequentes" class="state-published">
+            
+            Perguntas Frequentes
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/dados-abertos" class="state-published">
+            
+            Dados Abertos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/sobre-a-lei-de-acesso-a-informacao" class="state-published">
+            
+            Sobre a Lei de Acesso à Informação
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/demonstrativos-contabeis" class="state-published">
+            
+            Demonstrativos Contábeis
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas" class="state-published hasDropDown">
+            
+            Transparência e Prestação de Contas
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas" class="state-published">
+            
+            Relatório de Gestão 2023
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/auditorias-antiga/relatorio-de-gestao" class="state-published">
+            
+            Relatório de Gestão – exercícios anteriores
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/pt-br/orgaos/departamento-nacional-de-infraestrutura-de-transportes" class="state-published">
+            
+            Carta de Serviços
+        </a>
+
+        
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais" class="state-published hasDropDown">
+            
+            Tratamento de Dados Pessoais
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/tratamento-de-dados-pessoais/perguntas-frequentes-sobre-a-lgpd-e-atuacao-da-autoridade-nacional-de-protecao-de-dados-anpd" class="state-published">
+            
+            Perguntas Frequentes sobre a LGPD e atuação da Autoridade Nacional de Proteção de Dados (ANPD)
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/bens-moveis-e-imoveis" class="state-published hasDropDown">
+            
+            Bens Móveis e Imóveis
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/bens-moveis-e-imoveis/paineis-gerenciais" class="state-published">
+            
+            Painéis Gerenciais
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/emendas-parlamentares-rp9" class="state-published">
+            
+            Emendas Parlamentares - RP9
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/composicao" class="plain">Composição</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria" class="state-published hasDropDown">
+            
+            Diretoria
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-geral" class="state-published">
+            
+            Diretoria-Geral
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-executiva" class="state-published">
+            
+            Diretoria Executiva
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-administracao-e-financas" class="state-published">
+            
+            Diretoria de Administração e Finanças
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-planejamento-e-pesquisa" class="state-published">
+            
+            Diretoria de Planejamento e Pesquisa
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-aquaviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Aquaviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-rodoviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Rodoviária
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria/diretoria-de-infraestrutura-ferroviaria" class="state-published">
+            
+            Diretoria de Infraestrutura Ferroviária
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais" class="state-published hasDropDown">
+            
+            Superintendências Regionais
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/acre" class="state-published">
+            
+            Acre
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/alagoas" class="state-published">
+            
+            Alagoas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/amapa" class="state-published">
+            
+            Amapá
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/amazonas" class="state-published">
+            
+            Amazonas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/bahia" class="state-published">
+            
+            Bahia
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/ceara" class="state-published">
+            
+            Ceará
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/espirito-santo" class="state-published">
+            
+            Espírito Santo
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/goias-e-distrito-federal" class="state-published">
+            
+            Goiás e Distrito Federal
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/maranhao" class="state-published">
+            
+            Maranhão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/mato-grosso" class="state-published">
+            
+            Mato Grosso
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/mato-grosso-do-sul" class="state-published">
+            
+            Mato Grosso do Sul
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/minas-gerais" class="state-published">
+            
+            Minas Gerais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/para" class="state-published">
+            
+            Pará
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/paraiba" class="state-published">
+            
+            Paraíba
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/parana" class="state-published">
+            
+            Paraná
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/pernambuco" class="state-published">
+            
+            Pernambuco
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/piaui" class="state-published">
+            
+            Piauí
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-de-janeiro" class="state-published">
+            
+            Rio de Janeiro
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-grande-do-norte" class="state-published">
+            
+            Rio Grande do Norte
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rio-grande-do-sul" class="state-published">
+            
+            Rio Grande do Sul
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/rondonia" class="state-published">
+            
+            Rondônia
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/roraima" class="state-published">
+            
+            Roraima
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/santa-catarina" class="state-published">
+            
+            Santa Catarina
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/sao-paulo" class="state-published">
+            
+            São Paulo
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/sergipe" class="state-published">
+            
+            Sergipe
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/superintendencias-regionais/tocantins" class="state-published">
+            
+            Tocantins
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada" class="state-published hasDropDown">
+            
+            Diretoria Colegiada
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/composicao" class="state-published">
+            
+            Composição
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/competencia" class="state-published">
+            
+            Competência
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/atas" class="state-published">
+            
+            Atas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/diretoria-colegiada/extrato-de-atas" class="state-published">
+            
+            Extrato de Atas
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados" class="state-published hasDropDown">
+            
+            Órgãos Vinculados
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/auditoria" class="state-published">
+            
+            Auditoria Interna
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/corregedoria" class="state-published">
+            
+            Corregedoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/procuradoria" class="state-published">
+            
+            Procuradoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/conselho-de-administracao" class="state-published">
+            
+            Conselho de Administração
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/comites" class="state-published">
+            
+            Comitês
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/quem-e-quem" class="state-published">
+            
+            Quem é Quem
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/canais_atendimento" class="plain">Canais de Atendimento</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Fale Conosco
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/canais_atendimento/imprensa" class="state-published">
+            
+            Imprensa
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/canais_atendimento/comunicacao-social" class="state-published">
+            
+            Comunicação Social
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/composicao/orgaos-vinculados/ouvidoria" class="state-published">
+            
+            Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/multas" class="state-published">
+            
+            Portal de Multas
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/central-de-conteudos" class="plain">Central de Conteúdos</a>
+                <ul class="submenu">
+                    <li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/publicacoes" class="state-published hasDropDown">
+            
+            Publicações
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/publicacoes/manual-de-gestao-da-marca" class="state-published">
+            
+            Manuais de Gestão da Marca
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/noticias-alerta-de-servicos" class="state-published">
+            
+            Alertas DNIT
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/noticias/" class="state-published">
+            
+            Notícias
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li class="dropdown-submenu">
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas" class="state-published hasDropDown">
+            
+            Instruções - Procedimento Padrão
+        </a>
+
+        <ul class="submenu navTree navTreeLevel1">
+            
+
+
+
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/instrucao-de-registro-cadastral" class="state-published">
+            
+            Instrução de Registro Cadastral
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/portarias" class="state-published">
+            
+            Procedimento Padrão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/instrucoes-de-servicos" class="state-published">
+            
+            Instruções de Serviços
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/instrucoes-normativas/delegacoes-de-competencia-1" class="state-published">
+            
+            Delegações de Competência
+        </a>
+
+        
+    
+</li>
+
+
+
+
+        </ul>
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/central-de-conteudos/atos-normativos" class="state-published">
+            
+            Atos Normativos
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li class="plain dropdown-submenu"><a href="https://www.gov.br/dnit/pt-br/servicos" class="plain">Serviços</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/proarte" class="state-published">
+            
+            Proarte
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/portal-cidadao" class="state-published">
+            
+            Portal Cidadão
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/portal-de-multas" class="state-published">
+            
+            Portal de Multas
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/sistemas-gerenciais" class="state-published">
+            
+            Sistemas Gerenciais
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/agenda" class="state-published">
+            
+            Agenda
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/custos-e-pagamentos" class="state-published">
+            
+            Custos e Pagamentos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/licitacoes-e-contratos" class="state-published">
+            
+            Licitações e Contratos
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/consulta-processual" class="state-published">
+            
+            Consulta Processual
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/fala-br" class="state-published">
+            
+            Fala BR
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/autorizacao-especial-de-transito-aet" class="state-published">
+            
+            Autorização Especial de Trânsito - AET
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/servicos/pontos-de-parada-e-descanso" class="state-published">
+            
+            Pontos de Parada e Descanso
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/assuntos/atlas-e-mapas/pnv-e-snv" class="state-published">
+            
+            Plano Nacional de Viação e Sistema Nacional de Viação
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/rodovias/operacoes-rodoviarias/faixa-de-dominio" class="state-published">
+            
+            Faixa de Domínio
+        </a>
+
+        
+    
+</li>
+
+<li>
+
+    
+
+        <a href="https://www.gov.br/dnit/pt-br/acesso-a-informacao/acoes-e-programas/dnit-sustentavel/" class="state-published">
+            
+            DNIT Sustentável
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li></ul>
+                <!--</div>
+            </div>-->
+
+                
+        <div class="lgpd-reset-cookies">
+        <a href="#" class="reset-cookies" onclick="_redefinirCookies(); return false;">Redefinir Cookies</a>
+    </div>
+    <div class="redes-e-logos">
+                    <div class="redes-sociais">
+                        <div class="titulo">Redes sociais</div>
+                    <ul class="portal-redes">
+            
+                <li class="portalredes-facebook portalredes-item">
+                    <a href="https://www.facebook.com/dnitoficial">Facebook</a>
+                </li>
+            
+                <li class="portalredes-instagram portalredes-item">
+                    <a href="https://www.instagram.com/dnitoficial">Instagram</a>
+                </li>
+            
+                <li class="portalredes-linkedin portalredes-item">
+                    <a href="https://linkedin.com/company/dnitoficial">Linkedin</a>
+                </li>
+            
+        </ul></div>
+                    <div id="footer-govbr">
+                        <div id="wrapper-footer-brasil">
+                            <a class="logo-acesso-footer" href="https://www.gov.br/acessoainformacao/pt-br" title="Acesse o portal sobre o acesso à informação">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 117 49" height="49" width="117" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><defs><style type="text/css"><![CDATA[.a {font: normal bold 11px Open Sans, sans-serif;}]]></style></defs><circle cx="22" cy="23" r="22" fill="#222"></circle><path style="stroke:#fff;stroke-width:9;stroke-linecap:round;" d="m 22,23 v 13"></path><path style="stroke:#222;stroke-width:4;stroke-linejoin:round;" d="m 4,43 3,-6 4,3 z"></path><circle r="4.5" cy="11" cx="22" fill="#fff"></circle><g fill="#222"><text x="47" y="22"><tspan class="a" y="18">Acesso à</tspan><tspan class="a" x="47" y="31">Informação</tspan></text></g></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="texto-copyright">
+    Todo o conteúdo deste site está publicado sob a licença <a rel="license" href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR">Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>.
+  </div>
+        </footer>
+
+        <nav class="back-to-top" aria-label="Voltar ao topo da página">
+            <a href="#wrapper">
+                <span class="fa fa-chevron-up"></span>
+                <span class="sr-only">Voltar ao topo da página</span>
+            </a>
+        </nav>
+    <div id="govbr-busca-input-data" style="display: none" data-autocomplete-api="https://portalunico.estaleiro.serpro.gov.br/api/" data-autocomplete-index="//www.gov.br/dnit" data-autocomplete-orgao="departamento-nacional-de-infraestrutura-de-transportes" data-autocomplete-search="https://www.gov.br/dnit/pt-br" data-autocomplete-portal="https://www.gov.br" data-historico-title="Histórico de buscas" data-servicos-title="Serviços e Apps" data-sugestoes-title="Você quis dizer?" data-input-placeholder="O que você procura?"></div></div><div id="main-navigation-overlay"></div><div class="redefinir-cookies">
+
+    
+
+</div><div class="dsgov">
+    <div class="br-cookiebar default d-none" tabindex="-1">
+      <div class="br-modal">
+        <div class="br-card">
+          <div class="container">
+            <div class="wrapper">
+              <div class="br-modal-header entry-content">
+                <div class="br-modal-title"></div>
+                <div class="last-update"></div>
+                <div class="entry-text"></div>
+              </div>
+              <div class="br-modal-body">
+                <div class="info-text"></div>
+                <div class="br-list main-content">
+                </div>
+              </div>
+            </div>
+            <div class="br-modal-footer actions">
+              <button class="br-button small btn-manage" type="button" aria-label="Definir Cookies"></button>
+              <button class="br-button secondary small reject-all" type="button" aria-label="Rejeitar">Rejeitar</button>
+              <button class="br-button secondary small btn-accept" type="button" aria-label="Aceitar"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><script id="lgpd-cookie-handling" type="text/javascript" src="https://www.gov.br/dnit/++resource++govbr.policy/lgpd_cookie_handling_1_3_88.js"></script><div id="govbr-login-overlay-wrapper"></div><div id="govbr-busca-por-voz-overlay-wrapper">
+        <div class="busca-por-voz">
+            <span class="transcpt-text">Fale Agora</span>
+            <a href="#" id="btn-refazer-busca" class="refazer-busca">
+                Refazer a busca
+            </a>
+            
+            <a href="#" id="btn-ouvindo" class="btn-microfone ouvindo">
+                <span class="fas fa-microphone"></span>
+            </a>
+
+            <a href="#" id="btn-nao-entendi" class="btn-microfone nao-entendi">
+                <span class="fas fa-microphone"></span>
+            </a>
+
+            <a href="#" id="btn-fechar">
+                <span class="fas fa-times"></span>
+            </a>
+        </div>
+    </div><div vw="" class="enabled">
+        <div vw-access-button="" class="active"></div>
+        <div vw-plugin-wrapper="">
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div><!-- relato 4118176 --><script>
+        window.onbeforeunload = null;
+    </script><script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script><script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app', 'https://vlibras.gov.br/config/default_logo.json');
+    </script><script type="text/javascript" src="/dnit/++theme++padrao_govbr/govbrtheme-a13d586.js"></script><div id="plone-analytics"><script crossorigin="anonymous" data-src="https://servicos.dnit.gov.br/chatbot/chat"></script>
+
+<script type="text/javascript" data-src="https://servicos.dnit.gov.br/chatbot/chat"></script></div></body>
+</html>
