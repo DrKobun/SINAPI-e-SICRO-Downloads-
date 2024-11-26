@@ -1,233 +1,3 @@
-//import org.apache.log4j.BasicConfigurator;
-//import org.openqa.selenium.Alert;
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.Dimension;
-//import org.openqa.selenium.JavascriptExecutor;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.interactions.Actions;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//
-//import java.io.IOException;
-//import java.net.URI;
-//import java.net.http.HttpClient;
-//import java.net.http.HttpRequest;
-//import java.net.http.HttpResponse;
-//import java.nio.file.Files;
-//import java.nio.file.Path;
-//import java.nio.file.StandardOpenOption;
-//import java.time.Duration;
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public class Teste {
-//    public static void main(String[] args) {
-//    	BasicConfigurator.configure();
-//        
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\walyson.ferreira\\chromedriver.exe");
-//        System.setProperty("webdriver.http.factory", "jdk-http-client");
-//        WebDriver driver = new ChromeDriver();
-//
-//        try 
-//        {
-//            // Abre a página inicial
-//            driver.get("https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro/relatorios-sicro/relatorios-sicro");
-//
-//            // para clicar no centro da tela (ignorar mensagem popup)
-//            Dimension windowSize = driver.manage().window().getSize();
-//            int centerX = windowSize.getWidth() / 2;
-//            int centerY = windowSize.getHeight() / 2;
-//
-//            // Clica no centro da tela
-//            Actions actions = new Actions(driver);
-//            actions.moveByOffset(centerX, centerY).click().perform();
-//
-//            //String linkHref = driver.findElement(By.xpath("//a[contains(@href, 'norte')]")).getAttribute("href");
-//            String linkHref = driver.findElement(By.xpath("//a[contains(@href, 'norte') or contains(@href, 'nordeste') or contains(@href, 'centro-oeste') or contains(@href, 'sudeste') or contains(@href, 'sul')]")).getAttribute("href");
-// 
-//            // linkHref para fazer o download diretamente com o HttpClient
-//	         downloadFile(linkHref);
-//	         
-//	         
-//	         
-//
-//
-//	        // "//a[text()='Nordeste' or text()='Sul' or text()='Centro-Oeste' or text()='Sudeste' ]"
-//            // Pega os links das regiões											// remover regiões que já correram
-//	        
-//	        //List<WebElement> regionLinks = driver.findElements(By.xpath("//a[contains(text(), 'Norte') or contains(text(), 'Nordeste') or contains(text(), 'Centro-Oeste') or contains(text(), 'Sudeste') or contains(text(), 'Sul')]"));
-//            //List<WebElement> regionLinks = driver.findElements(By.xpath("//a[text()='Norte']"));
-//	        List<WebElement> regionLinks = driver.findElements(By.xpath("//a[text()='Norte' or text()='Nordeste' or text()='Centro-Oeste' or text()='Sudeste' or text()='Sul']"));
-//            
-//            for(WebElement regionLink : regionLinks)
-//            {
-//                regionLink.click(); // Clica no link da região para abrir a página dos meses
-//
-//                // Pega os hrefs dos meses dentro da região e armazena em uma lista de Strings
-//                
-//              //List<WebElement> monthElements = driver.findElements(By.xpath("//a[contains(text(), 'Janeiro') or contains(text(), 'Fevereiro') or contains(text(), 'Março') or contains(text(), 'Abril') or contains(text(), 'Maio') or contains(text(), 'Junho') or contains(text(), 'Julho') or contains(text(), 'Agosto') or contains(text(), 'Setembro') or contains(text(), 'Outubro') or contains(text(), 'Novembro') or contains(text(), 'Dezembro')]"));
-//                
-//              //List<WebElement> monthElements = driver.findElements(By.xpath("//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'janeiro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'fevereiro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'março') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'abril') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'maio') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'junho') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'julho') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'agosto') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'setembro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'outubro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'novembro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'dezembro')]"));
-//
-//                List<WebElement> monthElements = driver.findElements(By.xpath("//a[(contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'janeiro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'fevereiro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'março') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'abril') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'maio') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'junho') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'julho') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'agosto') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'setembro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'outubro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'novembro') or contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'dezembro')) and contains(@href, 'tocantins')]"));
-//
-//                List<String> monthLinks = new ArrayList<>();
-//                
-//                for (WebElement monthElement : monthElements) 
-//                {
-//                    monthLinks.add(monthElement.getAttribute("href"));
-//                }
-//
-//                // Itera sobre cada link dos meses usando os hrefs
-//                for (String monthLink : monthLinks) 
-//                {
-//                    driver.get(monthLink); // Navega para o link do mês
-//
-//                    																			 //.zip	//remover ,'2017' // REFAZER CONDIÇÕES PARA DOWNLOAD
-//                    List<WebElement> zipLinks = driver.findElements(By.xpath("//a[contains(@href, '.zip')]"));
-//
-//                    
-//                    for (WebElement zipLink : zipLinks) 
-//                    {
-//                        String fileUrl = zipLink.getAttribute(".zip");
-//                        downloadFile(fileUrl); // Função de download
-//                    }
-//
-//                    // Volta para a página anterior (da região)
-//                    driver.navigate().back();
-//                }
-//
-//                // Volta para a página inicial das regiões
-//                driver.navigate().back();
-//            }
-//        } 
-//        finally 
-//        {
-//            driver.quit();
-//        }
-//    }
-//
-//    // Método para baixar o arquivo
-//    public static void downloadFile(String fileUrl) {
-//        try {
-//            HttpClient client = HttpClient.newHttpClient();
-//            HttpRequest request = HttpRequest.newBuilder().uri(URI.create(fileUrl)).build();
-//
-//            HttpResponse<byte[]> response = client.send(request, HttpResponse.BodyHandlers.ofByteArray());
-//
-//            // Salva o arquivo na pasta
-//            String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
-//            Path filePath = Path.of("Downloads", fileName);
-//            Files.createDirectories(filePath.getParent());
-//            Files.write(filePath, response.body(), StandardOpenOption.CREATE);
-//
-//            System.out.println("Arquivo baixado: " + fileName + "\n no caminho: " + filePath);
-//        } catch (IOException | InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//}
-
-
-//import org.apache.log4j.BasicConfigurator;
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.Dimension;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.interactions.Actions;
-//
-//import java.io.IOException;
-//import java.net.URI;
-//import java.net.http.HttpClient;
-//import java.net.http.HttpRequest;
-//import java.net.http.HttpResponse;
-//import java.nio.file.Files;
-//import java.nio.file.Path;
-//import java.nio.file.StandardOpenOption;
-//import java.util.ArrayList;
-//import java.util.List;
-//
-//public class Teste {
-//    public static void main(String[] args) throws InterruptedException {
-//        BasicConfigurator.configure();
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\walyson.ferreira\\chromedriver.exe");
-//        System.setProperty("webdriver.http.factory", "jdk-http-client");
-//        WebDriver driver = new ChromeDriver();
-//
-//        try {
-//            driver.get("https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro/relatorios-sicro/relatorios-sicro");
-//
-//            Dimension windowSize = driver.manage().window().getSize();
-//            int centerX = windowSize.getWidth() / 2;
-//            int centerY = windowSize.getHeight() / 2;
-//            Actions actions = new Actions(driver);
-//            actions.moveByOffset(centerX, centerY).click().perform();
-//
-//            List<WebElement> regionLinks = driver.findElements(By.xpath("//a[text()='Nordeste' or text()='Sul' or text()='Centro-Oeste' or text()='Sudeste']"));
-//
-//            for (WebElement regionLink : regionLinks) 
-//            {
-//                String regionName = regionLink.getText();
-//                regionLink.click();
-//
-//                List<WebElement> monthElements = driver.findElements(By.xpath("//a[contains(text(), 'Janeiro') or contains(text(), 'Fevereiro') or contains(text(), 'Março') or contains(text(), 'Abril') or contains(text(), 'Maio') or contains(text(), 'Junho') or contains(text(), 'Julho') or contains(text(), 'Agosto') or contains(text(), 'Setembro') or contains(text(), 'Outubro') or contains(text(), 'Novembro') or contains(text(), 'Dezembro')]"));
-//                List<String> monthLinks = new ArrayList<>();
-//
-//                for (WebElement monthElement : monthElements) 
-//                {											//href
-//                    monthLinks.add(monthElement.getAttribute(".zip"));
-//                }
-//
-//                for (String monthLink : monthLinks) 
-//                {
-//                    driver.get(monthLink);
-//                    // Declaração Throw lançada no método main
-//                    Thread.sleep(5000);
-//                    String monthName = driver.findElement(By.tagName("h1")).getText();
-//
-//                    // Cria diretório para a região e o mês, antes de baixar qualquer arquivo
-//                    Path directoryPath = Path.of("downloads", regionName, monthName);
-//                    Files.createDirectories(directoryPath);
-//
-//                    List<WebElement> zipLinks = driver.findElements(By.xpath("//a[contains(@href, '.zip')]"));
-//                    for (WebElement zipLink : zipLinks) 
-//                    {										//href
-//                        String fileUrl = zipLink.getAttribute(".zip");
-//                        downloadFile(fileUrl, regionName, monthName);
-//                    }
-//                    driver.navigate().back();
-//                }
-//                driver.navigate().back();
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } finally {
-//            driver.quit();
-//        }
-//    }
-//
-//    public static void downloadFile(String fileUrl, String regionName, String monthName) 
-//    {
-//        try 
-//        {
-//            HttpClient client = HttpClient.newHttpClient();
-//            HttpRequest request = HttpRequest.newBuilder().uri(URI.create(fileUrl)).build();
-//            HttpResponse<byte[]> response = client.send(request, HttpResponse.BodyHandlers.ofByteArray());
-//
-//            String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
-//            Path filePath = Path.of("downloads", regionName, monthName, fileName);
-//            Files.write(filePath, response.body(), StandardOpenOption.CREATE);
-//
-//            System.out.println("Arquivo baixado: " + filePath);
-//        } catch (IOException | InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//}
-
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
 import org.apache.commons.compress.archivers.zip.ZipArchiveInputStream;
 import org.apache.log4j.BasicConfigurator;
@@ -240,9 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import codes.TextAreaOutputStream;
-
 import java.awt.BorderLayout;
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -267,13 +35,10 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
-
-
 
 // VERSÃO DO SICRO FUNCIONANDO TODAS AS REGIÕES
 // TODO modificação para fazer downloads somente do mês mais recente (mês atual)
@@ -346,13 +111,10 @@ public class SicroAutomatic
         
         try 
         {
-        	
-        		
-        	
             // Abre a página inicial
             driver.get("https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro/relatorios-sicro/relatorios-sicro");
 
-            // Clica no centro da tela para fechar o popup, caso exista
+            // Clica no centro da tela para fechar o popup
             Dimension windowSize = driver.manage().window().getSize();
             int centerX = windowSize.getWidth() / 2;
             int centerY = windowSize.getHeight() / 2;
@@ -417,7 +179,6 @@ public class SicroAutomatic
                     	String arquivoAtual = "";
                     	
                         driver.get(fileUrl);
- 
                         
                         arquivoAtual = fileUrl;
                         int tamanhoURL = arquivoAtual.length();
@@ -459,7 +220,7 @@ public class SicroAutomatic
                                 
                                 File downloaded = new File(pathDownload, linhaCortada);
                                 
-                                
+                                // espera para download de arquivos
                                 FluentWait<File> wait = new FluentWait<File>(downloaded)
                                 		.withTimeout(Duration.ofMinutes(5))
                                 		.pollingEvery(Duration.ofSeconds(5))
@@ -593,7 +354,6 @@ public class SicroAutomatic
         	
 	         // separar todos os arquivos excel em uma pasta
              String source = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Resto";
-             // TODO procurar automaticamente qual é a pasta do usuário atual
              String target= "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
              String find = ".xlsx";             
              
@@ -624,7 +384,6 @@ public class SicroAutomatic
             		 e.printStackTrace();
             	 }
              }
-             
 //---------------------------------------------------------------------------------------------------------------------------------------
              // separar todos os arquivos Sintéticos de Composições de Custos
              String s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
@@ -671,8 +430,8 @@ public class SicroAutomatic
                  e.printStackTrace();
              }
 //---------------------------------------------------------------------------------------------------------------------------------------
-             // TODO separar, dentro de cada pasta ("CUSTOS, EQUIPAMENTOS, MATERIAIS") os estados de cada arquivo em suas respectivas pastas
-             
+// TODO separar, dentro de cada pasta ("CUSTOS, EQUIPAMENTOS, MATERIAIS") os estados de cada arquivo em suas respectivas pastas
+             // *SEPARAR MATERIAIS SINTÉTICOS*
              for(String estado : estados)
              {
             	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS Sintéticos";
@@ -689,7 +448,7 @@ public class SicroAutomatic
                      e.printStackTrace();
                  }
              }
-             
+             // *SEPARAR EQUIPAMENTOS SINTÉTICOS*
              for(String estado : estados)
              {
             	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS Sintéticos";
@@ -706,17 +465,9 @@ public class SicroAutomatic
                      e.printStackTrace();
                  }
              }
-             
+             // *SEPARAR CUSTOS SINTÉTICOS*
              for(String estado : estados)
-             {
-            	 // loop do estado e variável 'f'
-            	 if(estado.equalsIgnoreCase("RO") || f.contains("SICRO"))
-            	 {
-            		 
-            	 }
-            	 
-            	 
-            	 
+             { 
             	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS Sintéticos";
             	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS Sintéticos\\" + estado;
             	 f = estado;
@@ -751,25 +502,8 @@ public class SicroAutomatic
              }
              
 //----------------------------------------------------------------------------------------------------------------------------             
-             // separar arquivos por estado "Arquivos Excel"
-//             for(String estado : estados)
-//             {
-//            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
-//            	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\" + estado;
-//            	 f = estado;
-//            	 
-//            	 try
-//            	 {
-//            		 moveFiles(s, t, f);
-//            	 }
-//            	 catch(IOException e)
-//            	 {
-//            		 System.err.println("Ocorreu um erro: \n" + e.getMessage());
-//            		 e.printStackTrace();
-//            	 }
-//             }
              System.out.println("PROGRAMA ENCERRADO!");
-//---------------------------------------------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------
         } finally
         {
             driver.quit();
@@ -834,42 +568,6 @@ public class SicroAutomatic
         });      
         
     }
-	// método teste para verificação de nome de arquivo (solução para arquivos de 'RO')
-	public static void moveFilesSpecific(String sourceDir, String targetDir, String fileNameToFind) throws IOException
-    {
-        Path sourcePath = Paths.get(sourceDir);
-        Path targetPath = Paths.get(targetDir);
-
-        // Verifica se a pasta de destino existe, se não, cria
-        if(!Files.exists(targetPath)) 
-        {
-            Files.createDirectories(targetPath);
-        }
-
-        // Percorre a árvore de diretórios e move os arquivos encontrados
-        Files.walkFileTree(sourcePath, new SimpleFileVisitor<Path>() 
-        {
-            @Override
-            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException 
-            {										// 2 primeiras letras e ignorando maiúsculas e minúsculas
-                if (file.getFileName().toString().substring(2).equalsIgnoreCase(fileNameToFind))
-                {
-                    Path targetFilePath = targetPath.resolve(file.getFileName());
-                    Files.move(file, targetFilePath, StandardCopyOption.REPLACE_EXISTING);
-                    System.out.println("Movido: " + file + " para " + targetFilePath);
-                }
-                return FileVisitResult.CONTINUE;
-            }
-            @Override
-            public FileVisitResult visitFileFailed(Path file, IOException e) throws IOException 
-            {
-                System.err.println("Falha ao visitar o arquivo: " + file + " - " + e.getMessage());
-                return FileVisitResult.CONTINUE;
-            } 
-        });      
-        
-    }
-	
 	
 	private static String sanitizeFileName(String fileName)
     {
