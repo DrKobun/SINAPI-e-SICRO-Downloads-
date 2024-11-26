@@ -279,27 +279,27 @@ import javax.swing.SwingUtilities;
 // TODO modificação para fazer downloads somente do mês mais recente (mês atual)
 // TODO testar novamente para corrigir erro da pasta "CUSTOS"
 // TODO transformar em .jar
-public class Testes 
+public class SicroAutomatic 
 {
-//	static String[] estados = 
-//	          {
-//	              "AC", "AL", "AP", 
-//	              "AM", "BA", "CE", 
-//	              "DF", "ES", "GO", 
-//	              "MA", "MT", "MS", 
-//	              "MG", "PA", "PB", 
-//	              "PR", "PE", "PI", 
-//	              "RJ", "RN", "RS", 
-//	              "RO", "RR", "SC", 
-//	              "SP", "SE", "TO"
-//	          };
-	// região norte apenas	
 	static String[] estados = 
-        {
-            "AC", "AP", "AM",
-            "PA", "RO", "RR",
-            "TO",
-        };
+	          {
+	              "AC", "AL", "AP", 
+	              "AM", "BA", "CE", 
+	              "DF", "ES", "GO", 
+	              "MA", "MT", "MS", 
+	              "MG", "PA", "PB", 
+	              "PR", "PE", "PI", 
+	              "RJ", "RN", "RS", 
+	              "RO", "RR", "SC", 
+	              "SP", "SE", "TO"
+	          };
+	// região norte apenas	
+//	static String[] estados = 
+//        {
+//            "AM", "PA", "AC",
+//            "RR", "RO", "AP",
+//            "TO"
+//        };
 	
 	
 	static int regiao = 0;
@@ -367,13 +367,13 @@ public class Testes
             		// NORTE
             		"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/norte/norte",
             		// NORDESTE
-            		//"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/nordeste/nordeste",
+            		"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/nordeste/nordeste",
             		// CENTRO-OESTE
-            		//"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/centro-oeste/centro-oeste",
+            		"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/centro-oeste/centro-oeste",
             		// SUDESTE
-            		//"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/sudeste/sudeste",
+            		"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/sudeste/sudeste",
             		// SUL
-            		//"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/sul/sul",
+            		"https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/custos-e-pagamentos/custos-e-pagamentos-dnit/sistemas-de-custos/sicro_antiga/sul/sul",
             };
             
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
@@ -444,6 +444,7 @@ public class Testes
                         {
                         	System.out.println("REGIÃO SUL");
                         }
+                        
                         System.out.println("Baixando arquivo: " + arquivoAtual + "...\n------------------");
                         
                      // verificação de download ##########################################################################################
@@ -479,27 +480,14 @@ public class Testes
                             
                         
                         // verificação de download  ##########################################################################################
-                        
-                        
-                        
-                        
-                          // teste sem Thread.sleep
-//                        if(arquivoAtual.contains("sc"))
-//                        {
-//                        	Thread.sleep(5000);
-//                        }
-//                        Thread.sleep(1000);
+   
                     }
-
                     // Volta para a página anterior (da região)
                     driver.navigate().back();
                 }
-
                 // Volta para a página inicial das regiões
                 driver.navigate().back();
-            }
-        	 	
-            
+            }       
          
 //---------------------------------------------------------------------------------------------------------------------------------------
             
@@ -618,12 +606,29 @@ public class Testes
                  System.err.println("Ocorreu um erro: \n" + e.getMessage());
                  e.printStackTrace();
              }
-        	
-        	
+        	 //--------------------------------------------------------------------------------------------------------------
+             // teste de separação de estados antes de mover para pastas de CUSTOS, MATERIAIS, EQUIPAMENTOS 
+             for(String estado : estados)
+             {
+            	 source = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
+            	 target = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\" + estado;
+            	 find = estado;
+            	 
+            	 try
+            	 {
+	            		 moveFiles(source, target, find);
+            	 }
+            	 catch(IOException e)
+            	 {
+            		 System.err.println("Ocorreu um erro: \n" + e.getMessage());
+            		 e.printStackTrace();
+            	 }
+             }
+             
 //---------------------------------------------------------------------------------------------------------------------------------------
              // separar todos os arquivos Sintéticos de Composições de Custos
              String s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
-             String t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS";
+             String t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS Sintéticos";
              String f = "Sint_tico de Composi__es de Custos";
              
              try
@@ -636,9 +641,9 @@ public class Testes
                  e.printStackTrace();
              }
 //---------------------------------------------------------------------------------------------------------------------------------------
-          // separar todos os arquivos Sintéticos de Composições de Custos
+             // separar todos os arquivos Sintéticos de Equipamentos
              s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
-             t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS";
+             t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS Sintéticos";
              f = "Sint_tico de Equipamentos";
              
              try
@@ -651,8 +656,9 @@ public class Testes
                  e.printStackTrace();
              }
 //---------------------------------------------------------------------------------------------------------------------------------------
+             // separar todos os arquivos Sintéticos de Materiais
              s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
-             t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS";
+             t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS Sintéticos";
              f = "Relat_rio Sint_tico de Materiais";
              
              try
@@ -669,8 +675,8 @@ public class Testes
              
              for(String estado : estados)
              {
-            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS";
-                 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS\\" + estado;
+            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS Sintéticos";
+                 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\MATERIAIS Sintéticos\\" + estado;
                  f = estado;
                  
                  try
@@ -686,8 +692,8 @@ public class Testes
              
              for(String estado : estados)
              {
-            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS";
-                 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS\\" + estado;
+            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS Sintéticos";
+                 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\EQUIPAMENTOS Sintéticos\\" + estado;
                  f = estado;
                  
                  try
@@ -703,8 +709,16 @@ public class Testes
              
              for(String estado : estados)
              {
-            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS";
-            	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS\\" + estado;
+            	 // loop do estado e variável 'f'
+            	 if(estado.equalsIgnoreCase("RO") || f.contains("SICRO"))
+            	 {
+            		 
+            	 }
+            	 
+            	 
+            	 
+            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS Sintéticos";
+            	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\CUSTOS Sintéticos\\" + estado;
             	 f = estado;
             	 
             	 try
@@ -717,23 +731,43 @@ public class Testes
             		 e.printStackTrace();
             	 }
              }
+//----------------------------------------------------------------------------------------------------------------------------
+             // solução para arquivos aleatórios de outros estados na pasta 'RO'
+             for(String estado : estados)
+             {
+            	 source = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\RO";
+            	 target = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\" + estado;
+            	 find = estado;
+            	 
+            	 try
+            	 {
+	            		 moveFiles(source, target, find);
+            	 }
+            	 catch(IOException e)
+            	 {
+            		 System.err.println("Ocorreu um erro: \n" + e.getMessage());
+            		 e.printStackTrace();
+            	 }
+             }
+             
+//----------------------------------------------------------------------------------------------------------------------------             
              // separar arquivos por estado "Arquivos Excel"
-             for(String estado : estados)
-             {
-            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
-            	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\" + estado;
-            	 f = estado;
-            	 
-            	 try
-            	 {
-            		 moveFiles(s, t, f);
-            	 }
-            	 catch(IOException e)
-            	 {
-            		 System.err.println("Ocorreu um erro: \n" + e.getMessage());
-            		 e.printStackTrace();
-            	 }
-             }
+//             for(String estado : estados)
+//             {
+//            	 s = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
+//            	 t = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel\\" + estado;
+//            	 f = estado;
+//            	 
+//            	 try
+//            	 {
+//            		 moveFiles(s, t, f);
+//            	 }
+//            	 catch(IOException e)
+//            	 {
+//            		 System.err.println("Ocorreu um erro: \n" + e.getMessage());
+//            		 e.printStackTrace();
+//            	 }
+//             }
              System.out.println("PROGRAMA ENCERRADO!");
 //---------------------------------------------------------------------------------------------------------------------------------------
         } finally
@@ -800,6 +834,43 @@ public class Testes
         });      
         
     }
+	// método teste para verificação de nome de arquivo (solução para arquivos de 'RO')
+	public static void moveFilesSpecific(String sourceDir, String targetDir, String fileNameToFind) throws IOException
+    {
+        Path sourcePath = Paths.get(sourceDir);
+        Path targetPath = Paths.get(targetDir);
+
+        // Verifica se a pasta de destino existe, se não, cria
+        if(!Files.exists(targetPath)) 
+        {
+            Files.createDirectories(targetPath);
+        }
+
+        // Percorre a árvore de diretórios e move os arquivos encontrados
+        Files.walkFileTree(sourcePath, new SimpleFileVisitor<Path>() 
+        {
+            @Override
+            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException 
+            {										// 2 primeiras letras e ignorando maiúsculas e minúsculas
+                if (file.getFileName().toString().substring(2).equalsIgnoreCase(fileNameToFind))
+                {
+                    Path targetFilePath = targetPath.resolve(file.getFileName());
+                    Files.move(file, targetFilePath, StandardCopyOption.REPLACE_EXISTING);
+                    System.out.println("Movido: " + file + " para " + targetFilePath);
+                }
+                return FileVisitResult.CONTINUE;
+            }
+            @Override
+            public FileVisitResult visitFileFailed(Path file, IOException e) throws IOException 
+            {
+                System.err.println("Falha ao visitar o arquivo: " + file + " - " + e.getMessage());
+                return FileVisitResult.CONTINUE;
+            } 
+        });      
+        
+    }
+	
+	
 	private static String sanitizeFileName(String fileName)
     {
         // Substitui caracteres inválidos com um caractere seguro, como um underscore.
