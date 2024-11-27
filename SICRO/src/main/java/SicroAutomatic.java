@@ -7,9 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import codes.TextAreaOutputStream;
 import java.awt.BorderLayout;
 import java.io.ByteArrayInputStream;
@@ -17,10 +15,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
@@ -28,12 +22,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.StandardCopyOption;
-import java.nio.file.StandardOpenOption;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
@@ -56,12 +48,12 @@ public class SicroAutomatic
 	              "SP", "SE", "TO",
 	          };
 	// região norte apenas	
-//	static String[] estados = 
-//        {
-//            "AM", "PA", "AC",
-//            "RR", "RO", "AP",
-//            "TO"
-//        };
+	//	static String[] estados = 
+	//        {
+	//            "AM", "PA", "AC",
+	//            "RR", "RO", "AP",
+	//            "TO"
+	//        };
 	
 	
 	static int regiao = 0;
@@ -70,7 +62,7 @@ public class SicroAutomatic
     public static void main(String[] args) throws InterruptedException 
     {
     	
-    	// CHAMANDO CONSOLE EXTERNO #1
+    	// CHAMANDO CONSOLE EXTERNO
     	SwingUtilities.invokeLater(() -> {
             // Criação do JFrame
             JFrame frame = new JFrame("console");
@@ -299,11 +291,9 @@ public class SicroAutomatic
 	                        String fileName = new String(ze.getName().getBytes(StandardCharsets.ISO_8859_1), StandardCharsets.UTF_8);
 	                        System.out.println("Nome do arquivo: " + fileName);
 
-	                        // Sanitize the file name to ensure it's valid for the file system
 	                        fileName = sanitizeFileName(fileName);
 	                        // System.out.println("ARQUIVO COM ALTERAÇÃO: " + fileName);
 
-	                        // Se for um diretório, cria o diretório no destino
 	                        File fileOut = new File(destino + File.separator + fileName);
 	                        if (ze.isDirectory()) {
 	                            fileOut.mkdirs();  // Cria o diretório, se necessário

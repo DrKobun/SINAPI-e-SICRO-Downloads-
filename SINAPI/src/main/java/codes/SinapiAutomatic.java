@@ -16,19 +16,13 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.concurrent.FutureTask;
-
 import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.FluentWait;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-// TODO SEPARAR ARQUIVOS .xlsx EM PASTAS DE CADA ESTADO
 
 // ESTE PROGRAMA POSSUI CONSOLE EM JANELA SEPARADA!
 public class SinapiAutomatic 
@@ -144,11 +138,6 @@ public class SinapiAutomatic
                 String urlAtual = driver.getCurrentUrl();
                 
                 
-                
-                
-                int tamanhoAntes;
-                int tamanhoDepois;
-                
                 String caminho = "C:\\Users\\" + currentUser + "\\Downloads";
                 File downloads = new File(caminho); // arquivos do caminho
                 
@@ -176,12 +165,18 @@ public class SinapiAutomatic
                 		.ignoring(Exception.class)
                 		.withMessage("erro no download");
                 
+                
+                // exemplo de nome de arquivo DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_Desonerado
+                String nomeCortado;
+                nomeCortado = nomeArquivo.substring(31, 40);
+                
+                
                 boolean isDownloaded = wait.until(f -> f.exists() && f.canRead());
                 
                 
                 if(isDownloaded)
                 {
-                	System.out.println("------------------------------\nArquivo *DESONERADO* 100% baixado com sucesso!\n------------------------------");
+                	System.out.println("------------------------------\nArquivo *DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
                 }
                 else
                 {
@@ -207,12 +202,16 @@ public class SinapiAutomatic
                 		.ignoring(Exception.class)
                 		.withMessage("erro no download");
                 
-                isDownloaded = wait.until(f -> f.exists() && f.canRead());
+                // exemplo de nome de arquivo NÃO DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_NaoDesonerado
                 
+                nomeCortado = nomeArquivo.substring(31, 40);
+                
+                
+                isDownloaded = wait.until(f -> f.exists() && f.canRead());
                 
                 if(isDownloaded)
                 {
-                	System.out.println("------------------------------\nArquivo *NÃO DESONERADO* 100% baixado com sucesso!\n------------------------------");
+                	System.out.println("------------------------------\nArquivo *NÃO DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
                 }
                 else
                 {
@@ -259,7 +258,7 @@ if(validador == 0)
 	                // TODO MOVER ARQUIVOS BAIXADOS PARA PASTA NO DESKTOP
 	                String sourceDirectory = "C:\\Users\\" + currentUser + "\\Downloads\\";
 	                // TODO procurar automaticamente qual é a pasta do usuário atual
-	                String targetDirectory = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos ZIP";
+	                String targetDirectory = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos ZIP";
 	                String fileNameToFind = "SINAPI"; // Substitua pelo nome do arquivo a ser procurado               
 	                
 	                try
@@ -275,8 +274,8 @@ if(validador == 0)
 //------------------------------------------------------------------------------------------------------------------------------  
                 //*EXTRAIR* ARQUIVOS MOVIDOS (procura todos os arquivos .zip da pasta e todo o conteúdo de extração vai para outra pasta)
     
-    	        String origem = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos ZIP"; // path de onde tem arquivos zipados para extração
-    	        String destino = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Resto";  // Caminho de destino onde os arquivos serão extraídos
+    	        String origem = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos ZIP"; // path de onde tem arquivos zipados para extração
+    	        String destino = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Resto";  // Caminho de destino onde os arquivos serão extraídos
 
     	        // Listar todos os arquivos no diretório de origem
     	        File folder = new File(origem);
@@ -354,8 +353,8 @@ if(validador == 0)
                 
 //---------------------------------------------------------------------------------------------------------
     	        //Mover apenas arquivos selecionados APÓS a extração
-    	        String sourceDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste";
-                String targetDirector = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
+    	        String sourceDirector = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI";
+                String targetDirector = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
                 String fileNameToFin = ".xlsx";
 
                 // MOVER APENAS ARQUIVOS BAIXADOS
@@ -401,8 +400,8 @@ if(validador == 0)
             	 for(String estado : estados)
             	 {
             		 
-            			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
-            			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel\\" + estado;
+            			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
+            			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel\\" + estado;
             			 String procurar = "_" + estado + "_" + ano;
             			 
             			 
@@ -441,8 +440,8 @@ if(validador == 0)
               		 		 // INSUMOS
               		 		 if(i % 2 == 0)
               		 		 {
-              		 			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
-              		 			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel\\" + estado + "\\SINTETICOS";
+              		 			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
+              		 			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel\\" + estado + "\\SINTETICOS";
               		 			 // alterar arquivo para ser movido
               		 			 String procurar = "Sintetico_" + estado + "_" + ano;
               		 			 
@@ -460,9 +459,9 @@ if(validador == 0)
               		 		 // SINTÉTICO
               		 		 else
               		 		 {
-              		 			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
+              		 			 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
               		 			 // SINAPI_Preco_Ref_Insumos_AC_202409_NaoDesonerado
-              		 			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel\\" + estado + "\\INSUMOS";
+              		 			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel\\" + estado + "\\INSUMOS";
               		 			 // alterar arquivo para ser movido
               		 			 String procurar = "Insumos_" + estado + "_" + ano;
               		 			 
@@ -483,8 +482,8 @@ if(validador == 0)
               		 	 
               		 	 
               	}// fim do foreach dos estados
-              	 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
-      			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel\\ANALÍTICOS DE TODOS OS ESTADOS";
+              	 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
+      			 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel\\ANALÍTICOS DE TODOS OS ESTADOS";
       			 // alterar arquivo para ser movido
       			 String procurar = "Analitico";
 	 			 
@@ -499,8 +498,8 @@ if(validador == 0)
 		 		 }
 }// fim do validador == 0            		 	 
 // 								 código modelo *NÃO APAGAR*
-//              		 		 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel";
-//              		 		 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\RelatóriosTeste\\Arquivos Excel\\" + estado + "";
+//              		 		 String fonte = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel";
+//              		 		 String alvo = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SINAPI\\Arquivos Excel\\" + estado + "";
 //              		 		 String procurar = "_" + estado + "_" + ano;             			 
 //              		 		               		 		 
 //              		 		 try 
