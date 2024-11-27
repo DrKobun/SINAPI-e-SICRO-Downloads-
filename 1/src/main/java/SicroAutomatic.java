@@ -41,9 +41,6 @@ import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 
 // VERSÃO DO SICRO FUNCIONANDO TODAS AS REGIÕES
-// TODO modificação para fazer downloads somente do mês mais recente (mês atual)
-// TODO testar novamente para corrigir erro da pasta "CUSTOS"
-// TODO transformar em .jar
 public class SicroAutomatic 
 {
 	static String[] estados = 
@@ -56,7 +53,7 @@ public class SicroAutomatic
 	              "PR", "PE", "PI", 
 	              "RJ", "RN", "RS", 
 	              "RO", "RR", "SC", 
-	              "SP", "SE", "TO"
+	              "SP", "SE", "TO",
 	          };
 	// região norte apenas	
 //	static String[] estados = 
@@ -73,8 +70,7 @@ public class SicroAutomatic
     public static void main(String[] args) throws InterruptedException 
     {
     	
-    	int teste = 0;
-    	// TESTE CONSOLE EXTERNO #1
+    	// CHAMANDO CONSOLE EXTERNO #1
     	SwingUtilities.invokeLater(() -> {
             // Criação do JFrame
             JFrame frame = new JFrame("console");
@@ -121,9 +117,8 @@ public class SicroAutomatic
             Actions actions = new Actions(driver);
             actions.moveByOffset(centerX, centerY).click().perform();
             
-            // Pega os links das regiões do Brasil
-            List<WebElement> regionLinks = driver.findElements(By.xpath("//a[text()='Norte' or text()='nordeste' or text()='centro-oeste' or text()='sudeste' or text()='sul']"));
             
+            // links das regiões
             String[] links = 
             {
             		// NORTE
@@ -148,14 +143,12 @@ public class SicroAutomatic
 	    	// corte exato do mês e ano. Formato: "AAAAMM"
 	    	String ano = mesAno.substring(0, 4);
 	    	
-            for (String link : links) 
+            for(String link : links)
             {
             	regiao += 1;
             	System.out.println("Link atual: " + link + "\n------------------");
-                // Armazena o link da região
-                //String regionHref = regionLink.getAttribute("href");
                 
-                // Navega para o link da região
+                // clica no link da região
                 driver.get(link);
                 
                 // Pega os links dos meses dentro da região
@@ -165,17 +158,16 @@ public class SicroAutomatic
                 {
                     String monthHref = monthElement.getAttribute("href");
                     
-                    // Navega para o link do mês
+                    // clica no link do mês
                     driver.get(monthHref);
-                    //Thread.sleep(5000);
+                    
                     // Baixa todos os arquivos .zip na página
-                    //List<WebElement> zipLinks = driver.findElements(By.xpath("//a[contains(@href, '.zip')]"));
+                    //List<WebElement> zipLinks = driver.findElements(By.xpath("//a[contains(@href, '.zip')]")); (modelo de teste)
                     List<WebElement> zipLinks = driver.findElements(By.xpath("//a[substring(@href, string-length(@href) - 3) = '.zip']"));
 
                     for (WebElement zipLink : zipLinks) 
                     {	
                     	String fileUrl = zipLink.getAttribute("href");
-                        //downloadFile(fileUrl);
                     	String arquivoAtual = "";
                     	
                         driver.get(fileUrl);
@@ -208,12 +200,10 @@ public class SicroAutomatic
                         
                         System.out.println("Baixando arquivo: " + arquivoAtual + "...\n------------------");
                         
-                     // verificação de download ##########################################################################################
-                        
-                        
-                            
+                        // verificação de download ###################################################################
+                          
                                 String pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
-                                // modelo de arquivos baixados: ac-01-2024 // 4 meses
+                                // modelo de arquivos baixados: 'ac-01-2024' // 4 meses
                                 //String nomeArquivo = estado.toLowerCase() + "-" + mes + "-" + ano;
                                 
                                 String linhaCortada = arquivoAtual;
@@ -238,10 +228,7 @@ public class SicroAutomatic
                                 {
                                 	System.out.println("Arquivo não baixado ou não encontrado");
                                 }
-                            
-                        
-                        // verificação de download  ##########################################################################################
-   
+                        // ##########################################################################################
                     }
                     // Volta para a página anterior (da região)
                     driver.navigate().back();
@@ -254,7 +241,6 @@ public class SicroAutomatic
             
             // TODO MOVER ARQUIVOS BAIXADOS PARA PASTA NO DESKTOP
             String sourceDirectory = "C:\\Users\\" + currentUser + "\\Downloads\\";
-            // TODO procurar automaticamente qual é a pasta do usuário atual
             String targetDirectory = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos ZIP";
             String fileNameToFind = ano; // Substitua pelo nome do arquivo a ser procurado               
             
@@ -349,7 +335,6 @@ public class SicroAutomatic
 	        {
 	            System.out.println("Nenhum arquivo .zip encontrado no diretório especificado.");
 	        }
-        	
 //---------------------------------------------------------------------------------------------------------------------------------------
         	
 	         // separar todos os arquivos excel em uma pasta
@@ -367,7 +352,7 @@ public class SicroAutomatic
                  e.printStackTrace();
              }
         	 //--------------------------------------------------------------------------------------------------------------
-             // teste de separação de estados antes de mover para pastas de CUSTOS, MATERIAIS, EQUIPAMENTOS 
+             // separação de estados antes de mover para pastas de CUSTOS, MATERIAIS, EQUIPAMENTOS 
              for(String estado : estados)
              {
             	 source = "C:\\Users\\" + currentUser + "\\Desktop\\Arquivos SICRO\\Arquivos Excel";
@@ -430,7 +415,6 @@ public class SicroAutomatic
                  e.printStackTrace();
              }
 //---------------------------------------------------------------------------------------------------------------------------------------
-// TODO separar, dentro de cada pasta ("CUSTOS, EQUIPAMENTOS, MATERIAIS") os estados de cada arquivo em suas respectivas pastas
              // *SEPARAR MATERIAIS SINTÉTICOS*
              for(String estado : estados)
              {
@@ -511,29 +495,6 @@ public class SicroAutomatic
         
     }
 
-    // Método para baixar o arquivo
-    public static void downloadFile(String fileUrl) 
-    {
-        try 
-        {
-            HttpClient client = HttpClient.newHttpClient();
-            HttpRequest request = HttpRequest.newBuilder().uri(URI.create(fileUrl)).build();
-            
-            HttpResponse<byte[]> response = client.send(request, HttpResponse.BodyHandlers.ofByteArray());
-            
-            // Salva o arquivo na pasta "Downloads"
-            String fileName = fileUrl.substring(fileUrl.lastIndexOf("/") + 1);
-            Path filePath = Path.of("Downloads", fileName);
-            Files.createDirectories(filePath.getParent());
-            Files.write(filePath, response.body(), StandardOpenOption.CREATE);
-
-            System.out.println("Arquivo baixado: " + fileName + "\nno caminho: " + filePath);
-        } catch (IOException | InterruptedException e) 
-        {
-            e.printStackTrace();
-        }
-    }
-    
 	public static void moveFiles(String sourceDir, String targetDir, String fileNameToFind) throws IOException
     {
         Path sourcePath = Paths.get(sourceDir);
