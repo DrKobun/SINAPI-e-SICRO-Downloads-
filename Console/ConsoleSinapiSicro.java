@@ -41,12 +41,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 
+// TODO adicionar inputs de texto para downloads de datas específicas
+
 
 public class ConsoleSinapiSicroTESTES 
 {
 	static int regiao = 0;
 	static String currentUser = System.getProperty("user.name");
 	static boolean baixado;
+	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+	static LocalDateTime now = LocalDateTime.now();
 	
     public static void main(String[] args) 
     {
@@ -86,7 +90,7 @@ public class ConsoleSinapiSicroTESTES
             }
             else
             {
-            	textArea.setForeground(Color.white);
+            	textArea.setForeground(Color.yellow);
             }
             	
             	
@@ -157,6 +161,8 @@ public static class TaskWorker extends SwingWorker<Void, Void>
     @Override
     protected void done() 
     {
+
+        System.out.println("Hora atual: " + dtf.format(now));
         System.out.println("PROGRAMA ENCERRADO!");
         button.setEnabled(true);
     }
@@ -1321,7 +1327,7 @@ if(validador == 0)
           	 }
            }
            
-//----------------------------------------------------------------------------------------------------------------------------             
+//----------------------------------------------------------------------------------------------------------------------------    
            System.out.println("PROGRAMA ENCERRADO!");
 //----------------------------------------------------------------------------------------------------------------------------
       } finally
