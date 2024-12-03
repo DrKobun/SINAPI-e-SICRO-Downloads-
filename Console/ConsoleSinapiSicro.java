@@ -42,7 +42,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 
 
-public class TestesDescartavel 
+public class ConsoleSinapiSicroTESTES 
 {
 	static int regiao = 0;
 	static String currentUser = System.getProperty("user.name");
@@ -79,7 +79,7 @@ public class TestesDescartavel
             textArea.setEditable(false);
             textArea.setWrapStyleWord(true);
             textArea.setSize(400, 400);
-            textArea.setBackground(Color.gray);
+            textArea.setBackground(Color.black);
             if(baixado == true)
             {
             	textArea.setForeground(Color.green);
@@ -139,7 +139,7 @@ public static class TaskWorker extends SwingWorker<Void, Void>
         {
         	if(taskNumber == 1)
         	{
-        		executar(baixado);
+        		sinapi(baixado);
         	}
         	else if(taskNumber == 2)
         	{
@@ -161,47 +161,14 @@ public static class TaskWorker extends SwingWorker<Void, Void>
         button.setEnabled(true);
     }
 }
-
-    public static void executar(boolean baixado) 
+	// SINAPI
+    public static void sinapi(boolean baixado) 
 	{
-//	@Override
-//	public void actionPerformed(ActionEvent e) 
-//	{
+
 		int validador = 0;
-	 
-//		SwingUtilities.invokeLater(() ->
-//		{
-//            // Criação do JFrame
-//            JFrame frame = new JFrame("console");
-//            frame.setSize(500, 400);
-//            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);                     
-//            
-//            // TODO botão para baixar SINAPI e SICRO
-//            
-//            // Criação do JTextArea para exibir o console
-//            JTextArea textArea = new JTextArea();
-//            textArea.setVisible(true);
-//            textArea.setEditable(false);
-//            JScrollPane scrollPane = new JScrollPane(textArea);
-//            frame.add(scrollPane, BorderLayout.CENTER);
-//            
-//            //configuraçõoes para localização e tamanho da janela (janela do console)
-//            frame.setLocation(960, 0); // aqui é Localização (onde a janela vai ficar) o primeiro argumento é a largura
-//            frame.setSize(960, 1080);  // aqui é tamanho (qual o espaço que a janela vai ocupar)
-//            
-//            // Redirecionar o System.out e System.err para o JTextArea
-//            PrintStream printStream = new PrintStream(new TextAreaOutputStream(textArea));
-//            System.setOut(printStream);
-//            System.setErr(printStream);
-//
-//            frame.setVisible(true);
-//        });
-//    	
-//		BasicConfigurator.configure();
-		
+
 		//TODO método para procurar automaticamente o caminho do ChromeDriver.exe
 		
-		//solução provisória(EM USO): colocar o arquivo do ChromeDriver diretamente na pasta do usuário atual
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\" + currentUser + "\\chromedriver.exe");
         System.setProperty("webdriver.http.factory", "jdk-http-client");
         WebDriver driver = new ChromeDriver();
@@ -267,7 +234,7 @@ public static class TaskWorker extends SwingWorker<Void, Void>
             	String naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + anoMes + "_NaoDesonerado.zip";
                 
                                
-                System.out.println("Hora atual: " + dtf.format(now)); 
+                System.out.println("-------------------\nHora atual: " + dtf.format(now) + "\n-------------------"); 
                 String urlAtual = driver.getCurrentUrl();
                 
                 
@@ -283,80 +250,99 @@ public static class TaskWorker extends SwingWorker<Void, Void>
                 String verificar = driver.getCurrentUrl();
                 if(verificar.contains("PageNotFoundError"))
                 {
-                	System.out.println("Link para o mês de " + mes + " não disponível no momento");
+                	System.out.println("------------------------------------\nLink para o mês de " + mes + " não disponível no momento\n------------------------------------");
                 }
                 
-                System.out.println("URL atual: " + urlAtual);
-                // click no link desonerado
-                driver.get(desoneradoLink);
-                System.out.println("Link da URL atual *DESONERADO*: " + desoneradoLink);                
-                //Thread.sleep(5000);               
-                
-                // teste de solução ##########################################################################################
-                String pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
-                String nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_Desonerado.zip";
-                
-                File downloaded = new File(pathDownload, nomeArquivo);
-                
-                FluentWait<File> wait = new FluentWait<File>(downloaded)
-                		.withTimeout(Duration.ofMinutes(5))
-                		.pollingEvery(Duration.ofSeconds(5))
-                		.ignoring(Exception.class)
-                		.withMessage("erro no download");
                 
                 
-                // exemplo de nome de arquivo DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_Desonerado
-                String nomeCortado;
-                nomeCortado = nomeArquivo.substring(31, 40);
-                
-                
-                boolean isDownloaded = wait.until(f -> f.exists() && f.canRead());
-                
-                
-                if(isDownloaded)
+                urlAtual = driver.getTitle();
+                if(urlAtual.contains("PageNotFoundError"))
                 {
-                	System.out.println("------------------------------\nArquivo *DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
+                	System.out.println("Página não encontrada!");
                 }
-                else
+                else 
                 {
-                	System.out.println("Arquivo não baixado.");
+                	
+                	// click no link desonerado
+                	driver.get(desoneradoLink);
+                	urlAtual = driver.getCurrentUrl();
+                	if(urlAtual.contains("PageNotFoundError"))
+                	{
+                		System.out.println("Página para o mês " + mesInteiro + " não existe no momento!");
+                		validador++;
+                		break;
+                	}
+                	System.out.println("Link da URL atual *DESONERADO*: " + desoneradoLink);                
+                	//Thread.sleep(5000);
+                	
+                	urlAtual = driver.getTitle();
+       
+                	// teste de solução ##########################################################################################
+                	String pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";	// ALTERAR PARA ANO MES
+                	String nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_Desonerado.zip";
+                	
+                	File downloaded = new File(pathDownload, nomeArquivo);
+                	
+                	FluentWait<File> wait = new FluentWait<File>(downloaded)
+                			.withTimeout(Duration.ofMinutes(5))
+                			.pollingEvery(Duration.ofSeconds(5))
+                			.ignoring(Exception.class)
+                			.withMessage("erro no download");
+                	
+                	
+                	// exemplo de nome de arquivo DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_Desonerado
+                	String nomeCortado;
+                	nomeCortado = nomeArquivo.substring(31, 40);
+                	
+                	
+                	boolean isDownloaded = wait.until(f -> f.exists() && f.canRead());
+                	
+                	
+                	if(isDownloaded)
+                	{
+                		System.out.println("------------------------------\nArquivo *DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
+                	}
+                	else
+                	{
+                		System.out.println("Arquivo não baixado.");
+                	}
+                	// teste de solução ##########################################################################################
+                	
+                	
+                	// click no link de não desonerados
+                	driver.get(naoDesoneradoLink);
+                	System.out.println("Link da URL atual *NÃO DESONERADO*: " + naoDesoneradoLink);
+                	//Thread.sleep(5000);
+                	
+                	// teste de solução ##########################################################################################
+                	pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
+                	nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_NaoDesonerado.zip";
+                	
+                	downloaded = new File(pathDownload, nomeArquivo);
+                	
+                	wait = new FluentWait<File>(downloaded)
+                			.withTimeout(Duration.ofMinutes(5))
+                			.pollingEvery(Duration.ofSeconds(5))
+                			.ignoring(Exception.class)
+                			.withMessage("erro no download");
+                	
+                	// exemplo de nome de arquivo NÃO DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_NaoDesonerado
+                	
+                	nomeCortado = nomeArquivo.substring(31, 40);
+                	
+                	
+                	isDownloaded = wait.until(f -> f.exists() && f.canRead());
+                	
+                	if(isDownloaded)
+                	{
+                		System.out.println("------------------------------\nArquivo *NÃO DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
+                	}
+                	else
+                	{
+                		System.out.println("Arquivo não baixado.");
+                	}
+                	// teste de solução ##########################################################################################
                 }
-                // teste de solução ##########################################################################################
-                
-                
-                // click no link de não desonerados
-                driver.get(naoDesoneradoLink);
-                System.out.println("Link da URL atual *NÃO DESONERADO*: " + naoDesoneradoLink);
-                //Thread.sleep(5000);
-                
-                // teste de solução ##########################################################################################
-                pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
-                nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_NaoDesonerado.zip";
-                
-                downloaded = new File(pathDownload, nomeArquivo);
-                
-                wait = new FluentWait<File>(downloaded)
-                		.withTimeout(Duration.ofMinutes(5))
-                		.pollingEvery(Duration.ofSeconds(5))
-                		.ignoring(Exception.class)
-                		.withMessage("erro no download");
-                
-                // exemplo de nome de arquivo NÃO DESONERADO: SINAPI_ref_Insumos_Composicoes_AC_202410_NaoDesonerado
-                
-                nomeCortado = nomeArquivo.substring(31, 40);
-                
-                
-                isDownloaded = wait.until(f -> f.exists() && f.canRead());
-                
-                if(isDownloaded)
-                {
-                	System.out.println("------------------------------\nArquivo *NÃO DESONERADO*: " + nomeCortado + " 100% baixado com sucesso!\n------------------------------");
-                }
-                else
-                {
-                	System.out.println("Arquivo não baixado.");
-                }
-                // teste de solução ##########################################################################################
                 
                 urlAtual = driver.getCurrentUrl();
                 if(urlAtual.contains("PageNotFoundError"))
@@ -366,22 +352,17 @@ public static class TaskWorker extends SwingWorker<Void, Void>
                 }
                 
                 
-                if(estado == "AP")
-                {
-            		System.out.println("Iniciando espera final de conclusão de downloads... (espera de 10 segundos)");
-                	Thread.sleep(10000); // espera 10 segundos pra garantir que todos os downloads terminaram
-                }
+//                if(estado == "AP")
+//                {
+//            		System.out.println("Iniciando espera final de conclusão de downloads... (espera de 10 segundos)");
+//                	Thread.sleep(10000); // espera 10 segundos pra garantir que todos os downloads terminaram
+//                }
                 System.out.println("Arquivos baixados para o estado: " + estado);
                 System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
             }
             	if(validador == 0)
             	{
-            		
             		System.out.println("Todos os estados foram baixados!");
-            	}
-            	else
-            	{
-            		System.out.println("Programa encerrado!\nNão há nenhum download disponível na data atual!");
             	}
 	            Thread.sleep(5000);
 	        }
@@ -548,10 +529,6 @@ if(validador == 0)
             			 {
             				 moveFiles(fonte, alvo, procurar);
             				 System.out.println("Arquivo movido para a pasta: " + estado);
-            				 if(estado == "TO")
-            				 {
-            					 System.out.println("Programa encerrado!");
-            				 }
             			 }
             			 catch(IOException e1)
             			 {
