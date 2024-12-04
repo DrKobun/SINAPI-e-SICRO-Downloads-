@@ -191,7 +191,7 @@ public class ConsoleSinapiSicroTESTES
                 	String caixaAno = textoAno.getText();
                 	String caixaMes = textoMes.getSelectedItem().toString();
                     new TaskWorker(pesquisarSinapi, 3, caixaAno, caixaMes).execute();
-                    sicro.setEnabled(false);
+                    pesquisarSinapi.setEnabled(false);
                     
                     
                 }
@@ -362,7 +362,7 @@ public static class TaskWorker extends SwingWorker<Void, Void>
                 String verificar = driver.getCurrentUrl();
                 if(verificar.contains("PageNotFoundError"))
                 {
-                	System.out.println("------------------------------------\nLink para o mês de " + mes + " não disponível no momento\n------------------------------------");
+                	System.out.println("------------------------------------\nLink para o mês de " + linhaMes + " não disponível no momento\n------------------------------------");
                 }
                 
                 
@@ -380,7 +380,7 @@ public static class TaskWorker extends SwingWorker<Void, Void>
                 	urlAtual = driver.getCurrentUrl();
                 	if(urlAtual.contains("PageNotFoundError"))
                 	{
-                		System.out.println("Página para o mês " + mesInteiro + " não existe no momento!");
+                		System.out.println("Página para o mês " + linhaMes + " não existe no momento!");
                 		validador++;
                 		break;
                 	}
