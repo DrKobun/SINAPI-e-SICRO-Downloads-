@@ -49,10 +49,39 @@ public class ConsoleSinapiSicroTESTES
 	static int regiao = 0;
 	static String currentUser = System.getProperty("user.name");
 	static boolean baixado;
-	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-	static LocalDateTime now = LocalDateTime.now();
+//	static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+//	static LocalDateTime now = LocalDateTime.now();
 	
-    public static void main(String[] args) 
+	
+//	String textoAno;
+//	String textMes;
+//	
+//	
+//    public String getTextoAno() 
+//    {
+//		return textoAno;
+//	}
+//    
+//	public void setTextoAno(String textoAno) 
+//	{
+//		this.textoAno = textoAno;
+//	}
+//	
+//	public String getTextMes() 
+//	{
+//		return textMes;
+//	}
+//	
+//	public void setTextMes(String textMes) 
+//	{
+//		this.textMes = textMes;
+//	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) 
     {
         SwingUtilities.invokeLater(() -> 
         {
@@ -68,15 +97,49 @@ public class ConsoleSinapiSicroTESTES
             tela.add(panel);
 
             
-            JButton button = new JButton("SINAPI");
+            JButton button = new JButton("SINAPI 2024");
             panel.add(button);
             
             panel.add(Box.createVerticalStrut(10));
             
-            JButton sicro = new JButton("SICRO");
+            JButton sicro = new JButton("SICRO 2024");
             panel.add(sicro);
-
             
+            panel.add(Box.createVerticalStrut(10));
+//--------------------------------------------------------------------------------------
+            JLabel labelMes = new JLabel("Mês");
+            //JTextField textoMes = new JTextField(1);
+            
+            String[] escolhas = 
+            {
+            	"01", "02", "03",
+            	"04", "05", "06",
+            	"07", "08", "09",
+            	"10", "11", "12",
+            };
+            JComboBox<String> textoMes = new JComboBox<String>(escolhas);
+            textoMes.setMaximumSize(new java.awt.Dimension(200, 100));
+            panel.add(textoMes);
+            
+            
+            textoMes.setMaximumSize(new java.awt.Dimension(200, 800));
+            
+            panel.add(labelMes);
+            panel.add(textoMes);
+            
+            JTextField textoAno = new JTextField(1);
+            textoAno.setMaximumSize(new java.awt.Dimension(200, 800));
+            JLabel labelAno = new JLabel("Ano");
+            
+            panel.add(labelAno);
+            panel.add(textoAno);
+            
+            JButton pesquisarSinapi = new JButton("Pesquisar SINAPI");
+            
+            panel.add(pesquisarSinapi, BorderLayout.WEST);
+            
+            
+//--------------------------------------------------------------------------------------
             panel.add(Box.createVerticalStrut(10));
             
             JTextArea textArea = new JTextArea();
@@ -105,7 +168,7 @@ public class ConsoleSinapiSicroTESTES
             {
                 public void actionPerformed(ActionEvent e) 
                 {
-                    new TaskWorker(button, 1).execute();
+                    new TaskWorker(button, 1, "", "").execute();
                     button.setEnabled(false);
                     
                 }
@@ -115,8 +178,21 @@ public class ConsoleSinapiSicroTESTES
             {
                 public void actionPerformed(ActionEvent e) 
                 {
-                    new TaskWorker(sicro, 2).execute();
+                    new TaskWorker(sicro, 2, "", "").execute();
                     sicro.setEnabled(false);
+                    
+                }
+            });
+            
+            pesquisarSinapi.addActionListener(new ActionListener() 
+            {
+                public void actionPerformed(ActionEvent e) 
+                {
+                	String caixaAno = textoAno.getText();
+                	String caixaMes = textoMes.getSelectedItem().toString();
+                    new TaskWorker(pesquisarSinapi, 3, caixaAno, caixaMes).execute();
+                    sicro.setEnabled(false);
+                    
                     
                 }
             });
@@ -128,12 +204,16 @@ public static class TaskWorker extends SwingWorker<Void, Void>
 {
 	private JButton button; // Referência para o botão
 	private int taskNumber;
+	private String caixaAno;
+	private String caixaMes;
 
     // Construtor para receber o botão
-    public TaskWorker(JButton button, int taskNumber) 
+    public TaskWorker(JButton button, int taskNumber, String caixaAno, String caixaMes) 
     {
         this.button = button;
         this.taskNumber = taskNumber;
+        this.caixaAno = caixaAno;
+        this.caixaMes = caixaMes;
     }
     
     @Override
@@ -143,11 +223,16 @@ public static class TaskWorker extends SwingWorker<Void, Void>
         {
         	if(taskNumber == 1)
         	{
-        		sinapi(baixado);
+        		sinapi(baixado, 0, "", "");
         	}
         	else if(taskNumber == 2)
         	{
         		sicro();
+        	}
+        	else if(taskNumber == 3)
+        	{
+        		sinapi(baixado, 1, caixaAno, caixaMes);
+        		
         	}
 		} 
         catch (Exception e) 
@@ -161,15 +246,25 @@ public static class TaskWorker extends SwingWorker<Void, Void>
     @Override
     protected void done() 
     {
-
-        System.out.println("Hora atual: " + dtf.format(now));
+    	DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    	LocalDateTime now = LocalDateTime.now();
+        System.out.println("--------------------\nHora atual: " + dtf.format(now));
         System.out.println("PROGRAMA ENCERRADO!");
         button.setEnabled(true);
     }
 }
 	// SINAPI
-    public static void sinapi(boolean baixado) 
+    public static void sinapi(boolean baixado, int valor, String caixaAno, String caixaMes)
 	{
+    	String linhaAno = caixaAno;
+    	String linhaMes = caixaMes;
+    	
+    	String desoneradoLink = "";
+    	String naoDesoneradoLink = "";
+    	
+    	
+    	String resgataMes = "";
+    	
 
 		int validador = 0;
 
@@ -236,9 +331,20 @@ public static class TaskWorker extends SwingWorker<Void, Void>
             	//String desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_202410_Desonerado.zip";
             	//String naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_202410_NaoDesonerado.zip";
             	
-            	String desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + anoMes + "_Desonerado.zip";
-            	String naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + anoMes + "_NaoDesonerado.zip";
-                
+    	    	
+    	    	
+    	    	
+    	    	if(valor == 0)
+    	    	{    	    		
+	            	desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + anoMes + "_Desonerado.zip";
+	            	naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + anoMes + "_NaoDesonerado.zip";
+    	    	} 
+    	    	else if(valor == 1)
+    	    	{   // MODIFICAR LINKS PARA MÊS E ANO ESPECÍFICOS
+    	    		
+    	    		desoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + linhaAno + linhaMes + "_Desonerado.zip";
+	            	naoDesoneradoLink = "https://www.caixa.gov.br/Downloads/sinapi-a-partir-jul-2009-" + estado + "/SINAPI_ref_Insumos_Composicoes_" + estado + "_" + linhaAno + linhaMes + "_NaoDesonerado.zip";	
+    	    	}
                                
                 System.out.println("-------------------\nHora atual: " + dtf.format(now) + "\n-------------------"); 
                 String urlAtual = driver.getCurrentUrl();
@@ -285,7 +391,17 @@ public static class TaskWorker extends SwingWorker<Void, Void>
        
                 	// teste de solução ##########################################################################################
                 	String pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";	// ALTERAR PARA ANO MES
-                	String nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_Desonerado.zip";
+                	String nomeArquivo;
+                	if(valor == 1)
+                	{
+                		nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + linhaAno + linhaMes + "_Desonerado.zip";
+                	}
+                	else
+                	{
+                		nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_Desonerado.zip";
+                	}
+                		
+                		
                 	
                 	File downloaded = new File(pathDownload, nomeArquivo);
                 	
@@ -322,7 +438,16 @@ public static class TaskWorker extends SwingWorker<Void, Void>
                 	
                 	// teste de solução ##########################################################################################
                 	pathDownload = "C:\\Users\\" + currentUser + "\\Downloads";
-                	nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_NaoDesonerado.zip";
+                	if(valor == 1)
+                	{
+                		nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + linhaAno + linhaMes + "_NaoDesonerado.zip";
+                	}
+                	else
+                	{
+                		nomeArquivo = "SINAPI_ref_Insumos_Composicoes_"+ estado + "_" + anoMes + "_NaoDesonerado.zip";
+                	}
+                		
+                		
                 	
                 	downloaded = new File(pathDownload, nomeArquivo);
                 	
@@ -619,8 +744,8 @@ if(validador == 0)
 		 			 System.out.println("OCORREU UM ERRO: " + e1);
 		 		 }
 	 			 
-}// fim do validador == 0
-//}
+		}// fim do validador == 0
+    
 }
 	public static void moveFiles(String sourceDir, String targetDir, String fileNameToFind) throws IOException
     {
